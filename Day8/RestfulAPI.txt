@@ -1,0 +1,7 @@
+create webapi using CLI - dotnet new webapi -n [namefolder]
+
+default link - [url]/WeatherForecast
+
+AddCors - enable this API can be accessed by another (Example like postman)
+dotnet add package Microsoft.AspNetCore.Cors --version 2.2.0
+link References Cors in C# - https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi

@@ -1,4 +1,5 @@
 Ctrl + F5 : Run without debug
+Shift + F5 : Stop Run debug
 F5 : Run with debug
 F9 : Set BreakPoint
 
@@ -6,10 +7,37 @@ F10 : Step over (move to next line)
 F11 : Step into (jump into the scope )
 shift + F11 : Step out (jump out the scope)
 
-we can set debug value we want to know
+Ctrl + Shift + F5 : Reload Run Debug
 
+Watch Variable that we need definte it.
 Debug > Windows > Watch > Watch [1-4]
 
 then set name of value
 
 we can easy set new breakpoint and then run again
+
+We can see the value when hover in the variable, debug in VS allow us to change value in virtual and see debug.
+
+CallStack
+
+Debug > Window > Callstack
+
+or Ctrl + D,C
+
+Select F11 a few times until see debugger pause.
+
+Watch automatical Variable.
+Debug > Windows > Autos / Locals
+
+or Ctrl + D,A for Autos,
+Ctrl +D,L for Locals
+
+Notice :
+
+The Autos window shows variables used on the current line that the debugger is at and the preceding line.
+The Locals window shows variables defined in the local scope, which is usually the current function or method.
+In the Locals window, expand the letters variable to see its array elements and their values.
+
+References 
+
+- https://www.youtube.com/watch?v=u-HdLtqEOog
