@@ -1,0 +1,15 @@
+Ctrl + F5 : Run without debug
+F5 : Run with debug
+F9 : Set BreakPoint
+
+F10 : Step over (move to next line)
+F11 : Step into (jump into the scope )
+shift + F11 : Step out (jump out the scope)
+
+we can set debug value we want to know
+
+Debug > Windows > Watch > Watch [1-4]
+
+then set name of value
+
+we can easy set new breakpoint and then run again

@@ -1,0 +1,32 @@
+Huỳnh Trần Trung Hiếu - 27/07/2022
+- Completed Task: 
+     + Research Attribute,Reflection in C#.
+     + Research detail Transactions and Concurrency in EF.
+
+- Current Tasks:
+     + Research Type,Assembly in Reflection in C#  
+     + Research Visual Studio debug in C#.
+
+- Next Task: Learn about RestfulAPI.
+- Issue: There is no issue today
+
+
+Demo 27/07/2022
+-None
+
+References
+
+Report
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
+
+
+DataStructure
+https://www.geeksforgeeks.org/data-structures/?ref=lbp
+
+Algorithms
+https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=shm
