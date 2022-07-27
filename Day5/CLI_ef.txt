@@ -1,0 +1,26 @@
+Library need use for Entity
+
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+dotnet tool install --global dotnet-ef
+
+options: 
+Microsoft.EntityFrameworkCore.Relational
+System.Data.SqlClient
+
++input this in file.csproj
+<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="x.x.x" />
+
+PC-HIEUHUYNH\SQLEXPRESS
+
+Server=PC-HIEUHUYNH\SQLEXPRESS;Database=TESTDATABASEFIRST;Trusted_Connection=True;
+
+dotnet ef dbcontext scaffold "Server=PC-HIEUHUYNH\SQLEXPRESS;Database=TESTDATABASEFIRST;Trusted_Connection=True;
+" Microsoft.EntityFrameworkCore.SqlServer -o Models
+get-help scaffold-dbcontext –detailed
+
+Use when try to use Code First in C#
+> dotnet ef migrations add [text]
+> dotnet ef database update
+

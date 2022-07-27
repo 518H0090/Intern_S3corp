@@ -1,0 +1,35 @@
+4 type naming 
+pascal case
+camel case
+upper case
+snake case
+
+namspace - Pascalcase
+
+enum - pascalcase
+
+inteface - prefix I with pascalcase
+
+class - pascalCase
+
+public,protected - pascal
+
+private,internal - camel
+
+private - prefix _ and camelcase
+
+Constant - uppercase combine snake case
+
+public,private method - pascal
+
+parameter - camel
+
+local variable - camel
+
+
+Where to use Camel case and where to use Pascal case?
+Pascal case is used for giving file name, class Name, function Name, stored procedures.
+Camel case is used for giving variable name, constant name, end of the node.
+For making variable private, use underscore with camel case.
+For making variable public, use camel case without underscore.
+

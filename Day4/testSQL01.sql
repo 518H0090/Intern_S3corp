@@ -1,0 +1,25 @@
+use master
+
+GO
+
+CREATE DATABASE TEST01
+ON
+(
+	NAME = "TEST01",
+	FILENAME = "D:\TEST01.mdf",
+	SIZE = 5MB,
+	MAXSIZE = 50MB,
+	FILEGROWTH = 5MB
+)
+LOG ON
+(
+	NAME = "TEST01_log",
+	FILENAME = "D:\TEST01_log.ldf",
+	SIZE = 5MB,
+	MAXSIZE = 50MB,
+	FILEGROWTH = 5MB
+)
+
+GO
+
+drop database TEST01

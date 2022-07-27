@@ -1,0 +1,22 @@
+Huỳnh Trần Trung Hiếu - 20/07/2022
+- Completed Task: 
+     + Research IoC,DIP,Dependency Injection,IoC Container.
+     + Write several demo use Unity Container solve for DI problem.
+     + Read theory for Coding Convention.
+
+- Current Tasks:  
+     + Research more detail Dependency Injection Container.
+     + Research detail Coding Convention with C#.	
+
+- Next Task: Practice coding convention.
+- Issue: There is no issue today
+
+Demo Unity Container for DI
+https://github.com/518H0090/DI_Unity_Container_001
+
+Report
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+---Theory Coding Convetion
+
+https://www.geeksforgeeks.org/c-sharp-coding-standards/

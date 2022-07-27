@@ -1,0 +1,23 @@
+Huỳnh Trần Trung Hiếu - 21/07/2022
+- Completed Task: 
+     + Research Coding convention.
+     + Additional lack of theory for Dependency Injection(Template Method pattern) and Coding Convention(Layout,Comment,Language convention).
+     + Reasearch detail about Template Method pattern.
+
+- Current Tasks:  
+     + Research for Entity Framework.
+     + Practice Coding convention in C#.	
+
+- Next Task: Practice coding convention, use Entity Framework in C# connect with SQL to render data.
+- Issue: There is no issue today
+
+Demo
+-None
+
+Report
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

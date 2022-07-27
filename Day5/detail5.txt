@@ -1,0 +1,34 @@
+Huỳnh Trần Trung Hiếu - 22/07/2022
+- Completed Task: 
+     + Research basic for Entity Framework.
+     + Implement Database First with Entity Framework Core.
+     + Use Code First with Entity Framework Core to see how it render ERM in C# and Database Schema in SQL.(https://github.com/518H0090/Code_First_Render)	
+     + Use Database First with Entity Framework Core to see how it map database schema in SQL with Entity in C#.(https://github.com/518H0090/database_first_render_test)	
+
+- Current Tasks:  
+     + Research detail for Entity Framework Core.
+     + Complete Report for Entity Framework.
+
+- Next Task: Read all knowledge from https://www.entityframeworktutorial.net/
+- Issue: There is no issue today
+
+
+Test Code
+Test Database First
+https://github.com/518H0090/database_first_render_test
+
+Test Code First
+https://github.com/518H0090/Code_First_Render
+
+
+
+Demo
+-None
+
+Report
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

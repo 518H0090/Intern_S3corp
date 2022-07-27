@@ -1,0 +1,11 @@
+Huỳnh Trần Trung Hiếu - 18/07/2022
+- Completed Task: 
+     + Reseach basic theory for Asynchronous programming with async, await, task in C#
+     + Write 2 small demo implement theory in C# (demo1 use async await and demo2 use async,await,task).
+
+- Current Tasks: 
+     + Research detail more in Async , Await , Task in C#. 
+     + Find more information about thread and task in C#	
+
+- Next Task: Write more demo and try to comprehensively clear about concept with Asynchronous.
+- Issue: There is no issue today

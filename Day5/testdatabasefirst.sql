@@ -1,0 +1,44 @@
+CREATE DATABASE TESTDATABASEFIRST
+
+ON
+(
+	NAME = TESTDATABASEFIRST,
+	FILENAME = "D:\sql_test_log\TESTDATABASEFIRST.mdf",
+	SIZE = 5mb,
+	MAXSIZE = 50mb,
+	FILEGROWTH = 1mb 
+)
+LOG ON
+(
+	NAME = TESTDATABASEFIRST_log,
+	FILENAME = "D:\sql_test_log\TESTDATABASEFIRST_log.ldf",
+	SIZE = 5mb,
+	MAXSIZE = 50mb,
+	FILEGROWTH = 1mb 
+)
+
+GO 
+
+USE TESTDATABASEFIRST
+
+GO 
+
+CREATE TABLE STUDENT
+(
+	Id int identity(1,1),
+	FirstName varchar(255),
+	LastName varchar(255),
+	StandardId int,
+	CONSTRAINT PK_STUDENT PRIMARY KEY(Id)
+)
+
+GO
+
+CREATE TABLE COURSE
+(
+	CourseId int identity(1,1),
+	CourseName varchar(255),
+	StudentId int,
+	CONSTRAINT PK_COURSE PRIMARY KEY(CourseId),
+	CONSTRAINT FK_COURSE_STUDENT FOREIGN KEY(StudentId) REFERENCES STUDENT(Id)
+)

@@ -1,0 +1,17 @@
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
+
+short report 
+
+fullname - datetime
+- Completed Task: Reseach logging with Nlog
+- Current Tasks: 
+     + Research more logging with nlog 
+     + Review requirement and fix demo Nlog (expected to be completed on 28/05/2022 ) (in process 60%)
+- Next Task: research message broker - kafka
+- Issue: There is no issue today
+
+long report
+
+https://docs.google.com/document/d/1Qnr05MNAjoGURYJVT34boaHWOf4hL6uE9LwNeZEMFi0/edit#heading=h.829g10vzi6x8

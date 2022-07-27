@@ -1,0 +1,12 @@
+Huỳnh Trần Trung Hiếu - 19/07/2022
+- Completed Task: 
+     + Re-sent demo about Asynchronous
+     + Re-write theory about Asynchronous.
+     + Write a basic demo for Depedency Injection use Constructor Injection (try to implement DI in C# and understand concepts)
+
+- Current Tasks: 
+     + Research detail more in Async , Await , Task in C#. 
+     + Research Dependency Injection.	
+
+- Next Task: Increase comprehensive with Dependency Injection.
+- Issue: There is no issue today

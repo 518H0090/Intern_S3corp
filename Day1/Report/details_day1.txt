@@ -1,0 +1,7 @@
+Async methods are intended to be non-blocking operations that mean the code get executed in a thread without having to wait for long running task to finish.
+Method will be executed in a separate thread process their purpose while the main application thread will continue to excute the next statement. 
+An await expression in an async method doesn't block the current thread while the awaited task is running.The await keyword provides a non-blocking way to start a task,
+then continue execution when that task completes then we can use its result to next step in progress.
+The task can return a result. 
+Async code uses Task<T> and Task, which are constructs used to model work being done in the background.
+The async keyword turns a method into an async method, which allows you to use the await keyword in its body.

@@ -1,0 +1,40 @@
+Huỳnh Trần Trung Hiếu - 25/07/2022
+- Completed Task: 
+     + Research detail for Entity Framework.
+     + Build a small demo try to implement all relationship in database by FluentAPI.	
+     + Write a small demo CRUD basic with Entity Framework.
+
+- Current Tasks:  
+     + Expand more knowledge for Entity Framework Core.
+     + Research About Attribute in C#.
+
+- Next Task: Research in C# Relection.
+- Issue: There is no issue today
+
+
+Demo 25/07/2022 (All demo)
+https://github.com/518H0090/Demo_25072022
+
+Test Relationship
+https://github.com/518H0090/Demo_25072022/tree/main/Test_FluentAPI_RelationShip
+
+Test CRUD basic
+https://github.com/518H0090/Demo_25072022/tree/main/basic_CRUD
+
+
+
+Entity Framework 
++Stop at this 
+https://www.entityframeworktutorial.net/efcore/working-with-disconnected-entity-graph-ef-core.aspx
++ IF have time will continue.
+
+Demo
+-None
+
+Report
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
