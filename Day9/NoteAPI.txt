@@ -1,0 +1,2 @@
++ If Visual studio has some error
+-> open window powershell with adminstration role then type > SET ExecutionPolicy AllSigned -> this session will relaunch 
