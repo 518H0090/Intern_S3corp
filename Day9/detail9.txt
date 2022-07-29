@@ -1,9 +1,11 @@
 Huỳnh Trần Trung Hiếu - 28/07/2022
 - Completed Task: 
      + Research WebAPI in C#.
+     + Write a small demo implement Async,EF,DI and API in CRUD problem.
 
 - Current Tasks:
      + Research JWT Token API In C#.
+     + Research Refresh Token.
 
 - Next Task: Write severak demo about API in C#.
 - Issue: There is no issue today
@@ -12,10 +14,12 @@ Huỳnh Trần Trung Hiếu - 28/07/2022
 Demo 28/07/2022
 -https://github.com/518H0090/Intern_S3corp/tree/main/Day9/DemoAPI/DemoAPI0001/DemoAPI0001
 
-References
-
 Report
 https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+References
+
+
 
 
 link fill performance for work
