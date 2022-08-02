@@ -1,7 +1,7 @@
 Huỳnh Trần Trung Hiếu - 29/07/2022
 - Completed Task: 
      + Research WebAPI in C#.
-     + Follow step by step try to implement JwtToken API with Cookies.
+     + Follow step by step try to implement JwtToken API with Cookies (https://github.com/518H0090/Intern_S3corp/tree/main/Day10/Authentication/DemoJwtBasic001).
 
 - Current Tasks:
      + Research JWT Token API In C#.
@@ -10,12 +10,11 @@ Huỳnh Trần Trung Hiếu - 29/07/2022
 - Next Task: Write a small demo with JWT Token, CRUD with Entity Frameowrk and Web API.
 - Issue: There is no issue today
 
-Report
+Report 29/07/2022
 https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
-
-Demo 28/07/2022
--https://github.com/518H0090/Intern_S3corp/tree/main/Day9/DemoAPI/DemoAPI0001/DemoAPI0001
+Demo 29/07/2022
+- None
 
 
 References

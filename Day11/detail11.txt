@@ -1,0 +1,32 @@
+Huỳnh Trần Trung Hiếu - 01/08/2022
+- Completed Task: 
+     + Research WebAPI in C#.
+     + Research Jwt Token in C#
+
+
+- Current Tasks:
+     + Research JWT Refresh Token API In C#.
+
+- Next Task: Write a small use Jwt Token , Entity Framework.
+- Issue: Have some trouble when try to implement Refresh Token.
+
+Report 01/08/2022
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 01/08/2022
+- None
+
+
+References Jwt Token and Refresh Token (In read and try to comprehensible knowledge)
+
+Jwt Tokens
+https://www.learmoreseekmore.com/2022/05/part1-demo-on-jwt-access-token-and-refresh-token-authentication-in-dotnet6-webapi.html
+Refresh Tokens
+https://www.learmoreseekmore.com/2022/06/part2-demo-on-jwt-access-token-and-refresh-token-authentication-in-dotnet6-webapi.html
+
+
+
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
