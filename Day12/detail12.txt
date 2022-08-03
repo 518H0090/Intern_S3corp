@@ -4,18 +4,21 @@ Huỳnh Trần Trung Hiếu - 02/08/2022
      + Research Jwt Token in C#
      + Research Jwt Refresh Token in C#.
 
-
 - Current Tasks:
-     + Implement Jwt Refresh Token C#.
+     + Write a demo with RefreshAPI, Entity Framework, Dependency Injection (In process)
+     - Finish Jwt Token
+     - Finish Refresh Token
+     - Create more Table (In process)
+      
 
-- Next Task: Write a small use Jwt Token , Entity Framework.
-- Issue: Have some trouble when try to implement Refresh Token.
+- Next Task: Complete Demo.
+- Issue: No issue today.
 
 Report 02/08/2022
 https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 02/08/2022
-- None
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day12/WebAPIRefreshToken0001/RefreshToken0011/RefreshToken0011
 
 
 References Jwt Token and Refresh Token (In read and try to comprehensible knowledge)

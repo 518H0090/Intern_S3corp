@@ -11,5 +11,7 @@ namespace RefreshToken0011.Models.DatabaseContext
 
         public string Password { get; set; } = string.Empty;
 
+        [JsonIgnore]
+        public List<Character> Characters { set; get; }
     }
 }

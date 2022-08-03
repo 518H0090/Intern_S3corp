@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RefreshToken0011.Models.DatabaseContext;
 using RefreshToken0011.Models.Dto;
@@ -21,6 +23,7 @@ namespace RefreshToken0011.Controllers
             _TokenHelper = tokenHelper;
         }
 
+        //User Method
         [HttpPost("RegisterUser")]
         public ActionResult<User> Register(RegisterDto user)
         {
@@ -159,6 +162,5 @@ namespace RefreshToken0011.Controllers
 
             return Ok(tokens);
         }
-
     }
 }
