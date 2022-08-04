@@ -7,11 +7,12 @@ Huỳnh Trần Trung Hiếu - 03/08/2022
      - Finish Jwt Token
      - Finish Refresh Token
      - Create more Table (3 Table)
-       * User, Character ,Job
+       * User, Character ,Job (each table has own relationship)
      - Check their permission through jwt cookies.
        
 - Current Tasks:
      + Research theory for Monolithic vs Microservices architecture
+     + Find how to implement microservices in C#
       
 - Next Task: Write a brief theory for report with Monolithic vs Microservices architecture.
 - Issue: No issue today.

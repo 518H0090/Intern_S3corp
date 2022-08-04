@@ -2,20 +2,21 @@ Huỳnh Trần Trung Hiếu - 04/08/2022
 - Completed Task: 
      + Research Theory for Monothilic and Microservices in C#.
      + Test microservices in C# by use ocelet package.
-       
+
 - Current Tasks:
      + build a basic microservices which implement interact between two api (just a basic CRUD)
-      
+       
 - Next Task: Write a brief theory for report with Monolithic vs Microservices architecture
             ,make previous Refresh api project tranform monolithic to microserives structure.
 
 - Issue: No issue today.
 
 Report 04/08/2022
-https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
 
 Demo 04/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day12/WebAPIRefreshToken0001/RefreshToken0011
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day14/TestMicroservices
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day14/ConnectTwoAPI001 (In Process)
 
 link fill performance for work
 
