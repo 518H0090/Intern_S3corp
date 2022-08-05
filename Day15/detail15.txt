@@ -1,0 +1,26 @@
+Huỳnh Trần Trung Hiếu - 05/08/2022
+- Completed Task: 
+     + Research Theory for Monothilic and Microservices in C#.
+     + Test microservices in C# by use ocelet package.
+
+- Current Tasks:
+     + Write Microservices Demo to connect API. (In Process)
+     - Finish Student API Logic
+     - Finish Course API Logic
+     - Finish User API and RefreshToken Logic
+     - Finish Append all method from each api to API Gateway use Ocelot
+     * Create StudentCourseLog to Connect Student and Course through Api Gateway (use HttpClient) (In Process)
+       
+- Next Task: Complete Demo ,Theory report for monolithic and Microservices.
+
+- Issue: No issue today.
+
+Report 05/08/2022
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
+
+Demo 05/08/2022
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day14/ConnectTwoAPI001 (In Process)
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

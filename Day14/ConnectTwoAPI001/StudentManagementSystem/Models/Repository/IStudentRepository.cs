@@ -6,5 +6,6 @@ namespace StudentManagementSystem.Models.Repository
     {
         Student CreateStudent(Student student);
         List<Student> GetAllStudent();
+        Student GetStudentById(int id); 
     }
 }

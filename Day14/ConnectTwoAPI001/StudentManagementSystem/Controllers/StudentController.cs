@@ -23,6 +23,12 @@ namespace StudentManagementSystem.Controllers
             return _repository.GetAllStudent();
         }
 
+        [HttpGet("GetStudentById/{id}")]
+        public ActionResult<Student> GetStudentById(int id)
+        {
+            return _repository.GetStudentById(id);
+        }
+
         [HttpPost("CreateStudent")]
         public ActionResult<Student> CreateStudent(AddStudentDto student)
         {

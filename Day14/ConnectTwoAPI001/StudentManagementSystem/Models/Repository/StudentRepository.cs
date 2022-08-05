@@ -23,5 +23,10 @@ namespace StudentManagementSystem.Models.Repository
         {
             return _context.Students.ToList();
         }
+
+        public Student GetStudentById(int id)
+        {
+            return _context.Students.Find(id);
+        }
     }
 }

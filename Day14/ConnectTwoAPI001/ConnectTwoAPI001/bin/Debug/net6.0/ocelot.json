@@ -1,28 +1,128 @@
 {
   "Routes": [
+    //Course
     {
-      "DownstreamPathTemplate": "/api/StudentAdmission",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/Course/GetAllCourse",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7168
+          "Port": 5121
         }
       ],
-      "UpstreamPathTemplate": "/apigateway/AttendanceService",
+      "UpstreamPathTemplate": "/apigateway/GetAllCourse",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
     },
     {
-      "DownstreamPathTemplate": "/api/StudentAttendance",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/Course/CreateCourse",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7073
+          "Port": 5121
         }
       ],
-      "UpstreamPathTemplate": "/apigateway/AdmissionService",
+      "UpstreamPathTemplate": "/apigateway/CreateCourse",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Course/GetCourseById/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5121
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetCourseById/{everything}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //Student
+    {
+      "DownstreamPathTemplate": "/api/Student/GetAllStudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5134
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetAllStudent",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Student/CreateStudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5134
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CreateStudent",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Student/GetStudentById/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5134
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetStudentById/{everything}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    //Check authentication and generate jwt
+    {
+      "DownstreamPathTemplate": "/api/User/Login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5125
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/Login",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5125
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetUserWhileLogin",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/CreateUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5125
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CreateUser",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5125
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetAllUser",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
     }
+    //Student Connect with Course 
   ]
 }
