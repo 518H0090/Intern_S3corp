@@ -4,7 +4,7 @@
 
 namespace StudentCourseConnectionLog.Migrations
 {
-    public partial class InitialValue : Migration
+    public partial class IntialValue : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

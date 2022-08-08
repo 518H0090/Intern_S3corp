@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CourseManagementSystem.Models.ModelClass;
+using Microsoft.EntityFrameworkCore;
 using StudentCourseConnectionLog.Models.DatabaseModels;
+using StudentManagementSystem.Models.ModelClass;
 
 namespace StudentCourseConnectionLog.Models.DatabaseContext
 {
@@ -20,6 +22,21 @@ namespace StudentCourseConnectionLog.Models.DatabaseContext
             {
                 e.HasKey(SC => new { SC.StudentId, SC.CourseId } );
             });
+
+            //modelBuilder.Entity<Student>(e =>
+            //{
+            //    e.HasMany<StudentCourse>(s => s.StudentCourses)
+            //    .WithOne(sc => sc.Student)
+            //    .HasForeignKey(sc => sc.StudentId)
+            //    .OnDelete(DeleteBehavior.Cascade);
+            //});
+
+            //modelBuilder.Entity<Course>(e => {
+            //    e.HasMany<StudentCourse>(c => c.StudentCourses)
+            //    .WithOne(sc => sc.Course)
+            //    .HasForeignKey(sc => sc.CourseId)
+            //    .OnDelete(DeleteBehavior.Cascade);
+            //});
         }
     }
 }

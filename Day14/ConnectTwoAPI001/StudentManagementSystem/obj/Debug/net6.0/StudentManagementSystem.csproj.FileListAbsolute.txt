@@ -59,3 +59,6 @@ C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\S
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\obj\Debug\net6.0\StudentManagementSystem.pdb
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\obj\Debug\net6.0\StudentManagementSystem.genruntimeconfig.cache
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\obj\Debug\net6.0\ref\StudentManagementSystem.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\StudentManagementSystem\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

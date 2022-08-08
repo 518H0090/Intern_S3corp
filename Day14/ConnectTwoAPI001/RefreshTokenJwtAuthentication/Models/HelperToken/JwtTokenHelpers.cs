@@ -103,17 +103,8 @@ namespace RefreshTokenJwtAuthentication.Models.HelperToken
                 return null;
             }
 
-            var findRefreshTokenExist = _context.RefreshTokens
-                .Where(rf => rf.ExpiresToken == refreshToken && rf.ExpiresTime > DateTime.UtcNow);
-
-            if (findRefreshTokenExist == null )
-            {
-                return null;
-            }
-
             var findRefreshTokenExistDeadExpires = _context.RefreshTokens
-                .Where(rf => rf.ExpiresToken == refreshToken && rf.ExpiresTime < DateTime.UtcNow
-                || rf.ExpiresToken == refreshToken && rf.ExpiresTime > DateTime.UtcNow
+                .Where(rf => rf.ExpiresToken == refreshToken && rf.ExpiresTime > DateTime.UtcNow
                 ).FirstOrDefault();
 
             if (findRefreshTokenExistDeadExpires != null)
@@ -130,7 +121,7 @@ namespace RefreshTokenJwtAuthentication.Models.HelperToken
                 AccessToken = tokenHandler.WriteToken(tokenHandler.ReadJwtToken(accesToken)),
                 CreatedExpirates = DateTime.Now,
                 ExpiresToken = refreshToken,
-                ExpiresTime = DateTime.Now.AddSeconds(10),
+                ExpiresTime = DateTime.Now.AddMinutes(3),
             };
 
             _context.RefreshTokens.Add(createRefreshToken);

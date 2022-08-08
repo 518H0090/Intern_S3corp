@@ -1,0 +1,19 @@
+Datatype in dart
+------------------------------------
+Number
+ - int
+ - double
+
+String
+ - String
+ - Runes
+
+Boolean
+
+List - like array, arraylist
+
+Map - set of key value pair
+
+Dynamic type
+ - var 
+ - dynamic

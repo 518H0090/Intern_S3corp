@@ -31,6 +31,16 @@ namespace StudentCourseConnectionLog.Models.Repository
             return _context.StudentCourses.ToList();
         }
 
+        public List<StudentCourse> GetLogByIdOfCourse(int courseId)
+        {
+            return _context.StudentCourses.Where(sc => sc.CourseId == courseId).ToList();
+        }
+
+        public List<StudentCourse> GetLogByIdOfStudent(int studentId)
+        {
+            return _context.StudentCourses.Where(sc => sc.StudentId == studentId).ToList();
+        }
+
         public StudentCourse GetLogByIdOfStudentAndCourse(int studentId, int courseId)
         {
             return _context.StudentCourses.Where(SC => SC.StudentId == studentId && SC.CourseId == courseId).FirstOrDefault();

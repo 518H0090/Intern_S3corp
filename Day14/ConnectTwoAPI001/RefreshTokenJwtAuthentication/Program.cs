@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Ocelot.DependencyInjection;
 using RefreshTokenJwtAuthentication.Models.DatabaseContext;
 using RefreshTokenJwtAuthentication.Models.HelperToken;
 using RefreshTokenJwtAuthentication.Models.Repository;
@@ -22,10 +23,8 @@ builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(
 
 ));
 
-IdentityModelEventSource.ShowPII = true;
-
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
+    .AddJwtBearer("Bearer", options =>
     {
         options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
@@ -39,6 +38,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddOcelot();
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<JwtTokenHelpers>();
 
@@ -51,6 +52,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

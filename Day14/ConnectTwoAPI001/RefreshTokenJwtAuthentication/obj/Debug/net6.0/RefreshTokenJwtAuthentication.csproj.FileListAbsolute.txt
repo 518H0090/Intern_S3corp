@@ -62,3 +62,11 @@ C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\R
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\obj\Debug\net6.0\RefreshTokenJwtAuthentication.genruntimeconfig.cache
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\obj\Debug\net6.0\ref\RefreshTokenJwtAuthentication.dll
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\RefreshTokenJwtAuthentication\bin\Debug\net6.0\Ocelot.dll

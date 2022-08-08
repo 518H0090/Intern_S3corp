@@ -11,8 +11,8 @@ using StudentCourseConnectionLog.Models.DatabaseContext;
 namespace StudentCourseConnectionLog.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220805085720_InitialValue")]
-    partial class InitialValue
+    [Migration("20220808030029_IntialValue")]
+    partial class IntialValue
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

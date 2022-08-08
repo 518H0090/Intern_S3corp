@@ -34,3 +34,11 @@ C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\C
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\obj\Debug\net6.0\ConnectTwoAPI001.pdb
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\obj\Debug\net6.0\ConnectTwoAPI001.genruntimeconfig.cache
 C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\obj\Debug\net6.0\ref\ConnectTwoAPI001.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day14\ConnectTwoAPI001\ConnectTwoAPI001\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

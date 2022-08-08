@@ -7,5 +7,7 @@ namespace StudentCourseConnectionLog.Models.Repository
         List<StudentCourse> GetAllListForStudentAndCourse();
         StudentCourse AddStudentAndCourseInLog(int studentId, int courseId);
         StudentCourse GetLogByIdOfStudentAndCourse(int studentId, int courseId);
+        List<StudentCourse> GetLogByIdOfStudent(int studentId);
+        List<StudentCourse> GetLogByIdOfCourse(int courseId);
     }
 }
