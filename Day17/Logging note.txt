@@ -1,0 +1,6 @@
+if we want use logging in C# then install 2 package in nugget
+
+PM> Install-Package NLog  
+PM> Install-Package NLog.Web.AspNetCore  
+
+demo example for logging in webapi .NET 6.0 https://github.com/Jay-study-nildana/CSharpForStudents/tree/main/WebApiDotNet6/LoggingDotNet6
