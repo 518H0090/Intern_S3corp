@@ -1,0 +1,43 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Students",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5004
+        }
+      ],
+      "UpstreamPathTemplate": "/getStudents",
+      "UpstreamHttpMethod": ["GET"],
+      "Key": "Students"
+    },
+    {
+      "DownstreamPathTemplate": "/api/Courses",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5079
+        }
+      ],
+      "UpstreamPathTemplate": "/getCourses",
+      "UpstreamHttpMethod": ["GET"],
+      "Key": "Courses"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "Students",
+        "Courses"
+      ],
+      "UpstreamPathTemplate": "/StudentAndCourse",
+      "UpstreamHttpMethod": [ "GET" ],
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5229/"
+  }
+}
