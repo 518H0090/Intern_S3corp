@@ -1,24 +1,14 @@
 Huỳnh Trần Trung Hiếu - 09/08/2022
 - Completed Task: 
-     + Research Theory for Monothilic and Microservices in C#.
-     + Research Theory for Ocelot in C#.
-     + Write Microservices Demo to connect API.
-       - Finish Student API Logic
-       - Finish Course API Logic
-       - Finish User API and RefreshToken Logic
-       - Finish Append all method from each api to API Gateway use Ocelot
-       - Finish Create StudentCourseLog to Connect Student
-       - Finish Build Logic Connect between Student And Course Through Ocelot (use HttpClient and NewtonsoftJson)
-       - Finish StudentCourse API Logic.
-       - Finish Authentication for Ocelot in Microservices Architecture
-    + Write Rerort for Monolithic and Microservices.
-    + Research use authentication with Ocelot in C#.
+     + Research Theory for Logging in C#.
+     + Build a demo implement Ocelot with aggregation for two api.
 
-- Current Tasks:
-    + Research more detail Ocelot in C#. 
+- Current Tasks: 
     + Write Report for Ocelot in C#.
+    + Write Report for Loggin in C#.
        
-- Next Task: Complete report for Ocelot ,Research in Logging topic.
+- Next Task: Move to next topic Research for Message Broker - Kafka,
+Event Driven Architecture.
 
 - Issue: No issue today.
 
