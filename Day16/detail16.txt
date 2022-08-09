@@ -12,6 +12,7 @@ Huỳnh Trần Trung Hiếu - 08/08/2022
        - Finish StudentCourse API Logic.
        - Finish Authentication for Ocelot in Microservices Architecture
     + Write Rerort for Monolithic and Microservices.
+    + Research use authentication with Ocelot in C#.
 
 - Current Tasks:
     + Research more detail Ocelot in C#. 

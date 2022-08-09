@@ -1,6 +1,7 @@
 ﻿using CourseManagementSystem.Models.Dto;
 using CourseManagementSystem.Models.ModelClass;
 using CourseManagementSystem.Models.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
