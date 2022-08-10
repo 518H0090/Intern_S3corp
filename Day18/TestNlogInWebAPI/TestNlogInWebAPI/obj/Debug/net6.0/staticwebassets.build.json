@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6DeAPbueOy9JSc76eIxfBWkMIo7VDhOUDokwRILZaLI=",
+  "Source": "TestNlogInWebAPI",
+  "BasePath": "_content/TestNlogInWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
