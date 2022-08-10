@@ -1,0 +1,9 @@
+Extensons > mangage Extensions
+Ghostdocs, codemaid
+
+"GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000",
+    "Hosts": {
+      "MyService": "http://localhost:3999"
+    }
+  }

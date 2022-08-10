@@ -1,0 +1,148 @@
+{
+  "Routes": [
+    //Refresh Token Config
+    {
+      "DownstreamPathTemplate": "/api/User/CreateUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5156
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CreateUser",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5156
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/Login",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/CheckLogin",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5156
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CheckLogin",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    //Database Management
+    {
+      "DownstreamPathTemplate": "/api/StudentCourse/GetAllRecorded",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetAllRecorded",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/StudentCourse/RecordJoinStudentCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/RecordJoinStudentCourse",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    //-------------------------
+    {
+      "DownstreamPathTemplate": "/api/Student/CreateStudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CreateStudent",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Student/GetAllStudent",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetAllStudent",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    //---------------------------------------------
+    {
+      "DownstreamPathTemplate": "/api/Course/CreateCourse",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CreateCourse",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/Course/GetAllCourses",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5034
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/GetAllCourses",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5158/"
+  }
+}

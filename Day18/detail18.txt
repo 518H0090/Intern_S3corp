@@ -1,0 +1,23 @@
+Huỳnh Trần Trung Hiếu - 10/08/2022
+- Completed Task: 
+     + Research Theory for Logging in C#.
+
+- Current Tasks: 
+    + Write Report for Ocelot in C#.
+    + Write Report for Loggin in C#.
+    + Create New Microservices API with Response and Request for Query data,Aggregration in Ocelot.
+       
+- Next Task: Move to next topic Research for Message Broker - Kafka,
+Event Driven Architecture.
+
+- Issue: No issue today.
+
+Report 10/08/2022
+https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
+
+Demo 10/08/2022
+- 
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

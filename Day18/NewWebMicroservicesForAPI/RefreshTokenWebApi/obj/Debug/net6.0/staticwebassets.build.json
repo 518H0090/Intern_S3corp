@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ehnf4CMuVcU1J/mrcRdzkWd6SBNK1O98cVlMHy3UWjg=",
+  "Source": "RefreshTokenWebApi",
+  "BasePath": "_content/RefreshTokenWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

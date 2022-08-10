@@ -6,6 +6,7 @@ Huỳnh Trần Trung Hiếu - 09/08/2022
 - Current Tasks: 
     + Write Report for Ocelot in C#.
     + Write Report for Loggin in C#.
+    + Create New Microservices API with Response and Request for Query data,Aggregration in Ocelot.
        
 - Next Task: Move to next topic Research for Message Broker - Kafka,
 Event Driven Architecture.
@@ -16,8 +17,7 @@ Report 09/08/2022
 https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
 
 Demo 09/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day17/OcelotTestApiGateway (Implement Baisc for Ocelot Aggregration - jsut for test features)
-- 
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day17/OcelotTestApiGateway (Implement Baisc for Ocelot Aggregration - just for test features)
 
 link fill performance for work
 
