@@ -136,6 +136,9 @@
       ],
       "UpstreamPathTemplate": "/apigateway/GetAllCourses",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "RouteClaimsRequirement": {
+        "Role": "User"
+      },
       "Key": "Courses",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Hieuro5122",
@@ -152,6 +155,9 @@
       ],
       "UpstreamPathTemplate": "/apigateway/CombineStudentAndCourse",
       "UpstreamHttpMethod": [ "GET" ],
+      "RouteClaimsRequirement": {
+        "Role": "User"
+      },
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Hieuro5122",
         "AllowedScopes": []

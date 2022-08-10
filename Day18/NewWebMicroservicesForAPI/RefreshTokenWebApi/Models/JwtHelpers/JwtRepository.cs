@@ -35,7 +35,7 @@ namespace RefreshTokenWebApi.Models.JwtHelpers
                 new Claim[]
                 {
                     new Claim(ClaimTypes.Name, userName),
-                    new Claim(ClaimTypes.Role, "User")
+                    new Claim("Role", "User")
                 }
             );
 
