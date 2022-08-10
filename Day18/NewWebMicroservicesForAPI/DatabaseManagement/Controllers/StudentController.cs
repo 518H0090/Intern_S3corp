@@ -16,6 +16,11 @@ namespace DatabaseManagement.Controllers
             _repository = repository;
         }
 
+        /// <summary>
+        /// Create Student
+        /// </summary>
+        /// <param name="request">StudentName, Address , Phone</param>
+        /// <returns>Information for craete student</returns>
         [HttpPost("CreateStudent")]
         public IActionResult CreateStudent(RequestCreateStudent request)
         {
@@ -32,6 +37,10 @@ namespace DatabaseManagement.Controllers
             return Created("CreateStudent", createdStudent);
         }
 
+        /// <summary>
+        /// Return All Student
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetAllStudent")]
         public IActionResult GetAllStudent()
         {

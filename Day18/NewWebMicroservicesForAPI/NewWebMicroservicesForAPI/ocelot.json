@@ -102,6 +102,7 @@
       ],
       "UpstreamPathTemplate": "/apigateway/GetAllStudent",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "Key": "Students",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Hieuro5122",
         "AllowedScopes": []
@@ -135,12 +136,27 @@
       ],
       "UpstreamPathTemplate": "/apigateway/GetAllCourses",
       "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "Key": "Courses",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Hieuro5122",
         "AllowedScopes": []
       }
     }
 
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "Students",
+        "Courses"
+      ],
+      "UpstreamPathTemplate": "/apigateway/CombineStudentAndCourse",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Hieuro5122",
+        "AllowedScopes": []
+      }
+    }
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://localhost:5158/"

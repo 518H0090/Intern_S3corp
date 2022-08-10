@@ -19,6 +19,11 @@ namespace RefreshTokenWebApi.Controllers
             _jwtRepository = jwtRepository;
         }
 
+        /// <summary>
+        /// Create User
+        /// </summary>
+        /// <param name="request">UserName and Password</param>
+        /// <returns>UserName and Password</returns>
         [HttpPost("CreateUser")]
         public IActionResult CreateUser(UserCreate request)
         {
@@ -35,6 +40,11 @@ namespace RefreshTokenWebApi.Controllers
             return Created("CreateNewUser",createdUser);
         }
 
+        /// <summary>
+        /// Login and Generate Jwt token
+        /// </summary>
+        /// <param name="request">Username and Password</param>
+        /// <returns>AccessToken and RefreshToken</returns>
         [HttpPost("Login")]
         public IActionResult LoginInSystem(UserLogin request)
         {
@@ -72,6 +82,10 @@ namespace RefreshTokenWebApi.Controllers
             return Ok(tokenGenerate);
         }
 
+        /// <summary>
+        /// Check Expires of Refresh Token and generate new token if time is expired.
+        /// </summary>
+        /// <returns>Refresh token and access token</returns>
         [HttpGet("CheckLogin")]
         public IActionResult CheckLogin()
         {

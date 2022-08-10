@@ -16,6 +16,11 @@ namespace DatabaseManagement.Controllers
             _repository = repository;
         }
 
+        /// <summary>
+        /// Create New Course
+        /// </summary>
+        /// <param name="request">CourseName and CourseDescription</param>
+        /// <returns>CourseName and CourseDescription</returns>
         [HttpPost("CreateCourse")]
         public IActionResult CreateCourse(RequestCreateCourse request)
         {
@@ -32,6 +37,10 @@ namespace DatabaseManagement.Controllers
             return Created("Create Course", createdCourse);
         }
 
+        /// <summary>
+        /// Get All Course in Database
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetAllCourses")]
         public IActionResult GetAllCourse()
         {

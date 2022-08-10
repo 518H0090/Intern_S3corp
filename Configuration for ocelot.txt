@@ -74,3 +74,17 @@ app.MapControllers();
 await app.UseOcelot();
 
 app.Run();
+---------------------------------------------
+"Aggregates": [
+    {
+      "RouteKeys": [
+        "Students",
+        "Courses"
+      ],
+      "UpstreamPathTemplate": "/StudentAndCourse",
+      "UpstreamHttpMethod": [ "GET" ],
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5229/"
+  }

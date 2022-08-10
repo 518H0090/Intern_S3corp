@@ -16,6 +16,11 @@ namespace DatabaseManagement.Controllers
             _repository = repository;
         }
 
+        /// <summary>
+        /// Recorded two id from Student and Course
+        /// </summary>
+        /// <param name="request">StudentId and CourseId</param>
+        /// <returns>Recorded</returns>
         [HttpPost("RecordJoinStudentCourse")]
         public IActionResult JoinStudentCourse(RequestJoinStudentName request)
         {
@@ -32,6 +37,10 @@ namespace DatabaseManagement.Controllers
             return Ok(recordedJoin);
         }
 
+        /// <summary>
+        /// Return All Joined Id with two tables (Student and Course)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetAllRecorded")]
         public IActionResult GetAllRecord()
         {
