@@ -1,0 +1,15 @@
+https://stackoverflow.com/questions/69297020/exception-in-thread-main-joptsimple-unrecognizedoptionexception-zookeeper-is
+
+Nlog with API
+https://medium.com/projectwt/nlog-with-ilogger-in-net-6-0-web-api-fb7072d8ac6c
+
+Brieft information for Nlog
+
+https://codewithmukesh.com/blog/logging-with-nlog-in-aspnet-core/
+
+Part 2 :
+
+https://www.davidguida.net/asp-net-core-structured-logging-part-2-the-infrastructure/
+
+Part 3 : 
+https://towardsdev.com/writing-logs-into-sql-server-with-nlog-and-net-6-0-fe212f2f6d19

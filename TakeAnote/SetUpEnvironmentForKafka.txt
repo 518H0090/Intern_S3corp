@@ -2,4 +2,3 @@ https://www.loginradius.com/blog/engineering/quick-kafka-installation/
 
 https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
 
-apache kafka - Exception in thread "main" joptsimple.UnrecognizedOptionException: zookeeper is not a recognized option - Stack Overflow
