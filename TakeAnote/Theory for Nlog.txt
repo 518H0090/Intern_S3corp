@@ -1,0 +1,6 @@
+https://medium.com/projectwt/nlog-with-ilogger-in-net-6-0-web-api-fb7072d8ac6c
+
+Nlog tutorial basic implement 
+https://www.youtube.com/watch?v=0W9z_4vQRCI
+
+https://www.youtube.com/watch?v=noXM1UsTAyo

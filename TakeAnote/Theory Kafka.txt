@@ -1,0 +1,6 @@
+https://medium.com/@shesh.soft/confluent-kafka-integration-with-net-core-2a489fa2512
+
+https://en.wikipedia.org/wiki/Event-driven_architecture
+
+
+https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core

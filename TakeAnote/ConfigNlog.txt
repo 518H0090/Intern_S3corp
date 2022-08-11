@@ -1,0 +1,131 @@
+Note we need create library module 
+Create ILoggermanager and LoggerManager with 4 methods Debug,Warn,Info,Error
+Install package Nlog.Extensions
+
+
+--------------------------------------------------------------------------------------
+nlog.config
+
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      autoReload="true"
+      internalLogLevel="Trace"
+      internalLogFile="c:\temp\internal-nlog-AspNetCore.txt">
+
+	<!-- enable asp.net core layout renderers -->
+	<extensions>
+		<add assembly="NLog.Web.AspNetCore"/>
+	</extensions>
+
+	<!-- the targets to write to -->
+	<targets>
+		 <!--File Target for all log messages with basic details--> 
+		<target xsi:type="File" name="allfile" fileName="c:\temp\nlog-AspNetCore-all-${shortdate}.log"
+				layout="${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}" />
+
+		 <!--File Target for own log messages with extra web details using some ASP.NET core renderers--> 
+		<target xsi:type="File" name="ownFile-web" fileName="c:\temp\nlog-AspNetCore-own-${shortdate}.log"
+				layout="${longdate}|${event-properties:item=EventId:whenEmpty=0}|${level:uppercase=true}|${logger}|${message} ${exception:format=tostring}|url: ${aspnet-request-url}|action: ${aspnet-mvc-action}|${callsite}" />
+
+		<!--Console Target for hosting lifetime messages to improve Docker / Visual Studio startup detection--> 
+		<target xsi:type="Console" name="lifetimeConsole" layout="${MicrosoftConsoleLayout}" />
+
+		<!--Custom--> 
+		<target xsi:type="File" name="logfile" filename="c:\temp\nlog-AspNetCore-custom-${shortdate}.txt" layout="${longdate} ${level:uppercase=true} ${message}" />
+	</targets>
+
+	<!-- rules to map from logger name to target -->
+	<rules>
+		<!--All logs, including from Microsoft-->
+		<logger name="*" minlevel="Trace" writeTo="allfile" />
+
+		<!--Output hosting lifetime messages to console target for faster startup detection--> 
+		<logger name="Microsoft.Hosting.Lifetime" minlevel="Info" writeTo="lifetimeConsole, ownFile-web" final="true" />
+
+		<!--Skip non-critical Microsoft logs and so log only own logs (BlackHole)--> 
+		<logger name="Microsoft.*" maxlevel="Info" final="true" />
+		<logger name="System.Net.Http.*" maxlevel="Info" final="true" />
+
+		<logger name="*" minlevel="Trace" writeTo="ownFile-web" />
+
+		<!--Custom-->
+		<logger name="*" minlevel="Debug" writeTo="logfile" />
+	</rules>
+</nlog>
+
+---------------------------------------------------------------------
+Program.cs
+
+using LoggerService;
+using NLog;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<ILoggerManager, LoggerManager>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+
+-------------------------------------------------------------------
+ILoggerManager
+
+public interface ILoggerManager
+    {
+        void LogError(string message);
+
+        void LogWarning(string message);
+
+        void LogDebug(string message);
+
+        void LogInfo(string message);
+    }
+
+--------------------------------------------------------------------
+
+LoggerManager
+
+public class LoggerManager : ILoggerManager
+    {
+        private static ILogger _logger = LogManager.GetCurrentClassLogger();
+
+        public void LogDebug(string message)
+        {
+            _logger.Debug(message);
+        }
+
+        public void LogError(string message)
+        {
+            _logger.Error(message);
+        }
+
+        public void LogInfo(string message)
+        {
+            _logger.Info(message);
+        }
+
+        public void LogWarning(string message)
+        {
+            _logger.Warn(message);
+        }
+    }

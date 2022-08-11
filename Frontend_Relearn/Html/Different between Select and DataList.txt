@@ -1,0 +1,4 @@
+While <select> and <datalist> share some similarities, there are some major differences. 
+In the associated <input> element, users can type in the input field to search for a particular option. 
+If none of the <option>s match, the user can still use what they typed in. 
+When the form is submitted, the value of the <input>‘s name and the value of the option selected, or what the user typed in, is sent as a pair.

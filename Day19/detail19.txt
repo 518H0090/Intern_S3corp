@@ -1,28 +1,33 @@
 Huỳnh Trần Trung Hiếu - 11/08/2022
 - Completed Task: 
      + Research Theory for Logging in C#.
+     + Build a basic demo use Nlog (Create Nlog module as Library and references in main project)
      + Extend Microservices project with Nlog.
        - One Assembly for Apigateway use Ocelot.
        - One Assembly process data for Student,Course and join them together.
        - One Assembly process RefreshToken and AccessToken.  
        - Check Authentication for ApiGateway.
        - Generate Nlog Extestions like library and inject in Main project
-     + Build a basic demo use Nlog (Create Nlog module as Library and references in main project)
+     + Write Report for Logging in C#.
+     + Install and Config Kafka in Windows.
+     + Test create topic, procuder and consumer in kafka
 
 - Current Tasks: 
-    + Write Report for Logging in C#.
+    + Research Detail for Nlog in C#.
+    + Research theory and find how to implement in C#.
+    + Write report for kafka.
        
-- Next Task: Move to next topic Research for Message Broker - Kafka,
+- Next Task: Research detail and complete report for Message Broker - Kafka,
 Event Driven Architecture.
 
 - Issue: No issue today.
 
 Report 11/08/2022
-- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 11/08/2022
 - https://github.com/518H0090/Intern_S3corp/tree/main/Day19/TestNlogLibraryExtension.518H0090 (Nlog module as Library)
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day19/NewWebMicroservicesForAPI (Expand with Nlog in StudentCourseController)
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day19/NewWebMicroservicesForAPI (Expand Nlog in StudentCourseController)
 
 link fill performance for work
 
