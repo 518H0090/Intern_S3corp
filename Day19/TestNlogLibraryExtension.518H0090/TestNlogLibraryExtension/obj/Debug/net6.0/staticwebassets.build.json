@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DOgTXZgUDUEOIIa6M+/bNLrW1fsehlBZcuLP0RVsVYA=",
+  "Source": "TestNlogLibraryExtension",
+  "BasePath": "_content/TestNlogLibraryExtension",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
