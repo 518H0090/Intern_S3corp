@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "pSXQ/UDknaJ6UXWkq3RwKiDpC9BtzYv7PQYqXN0aH+uvBgcmYv9QZKyW5B20a2n1JXiZpEoaxymVBzKSRQelPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hieu.huynh\\Desktop\\WORK_DIRECTORY\\InternS3corp\\Day19\\NewWebMicroservicesForAPI\\NlogExtensions\\NlogExtensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
+    "C:\\Users\\hieu.huynh\\.nuget\\packages\\nlog.extensions.logging\\5.0.1\\nlog.extensions.logging.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

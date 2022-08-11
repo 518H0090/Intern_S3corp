@@ -1,11 +1,12 @@
 Huỳnh Trần Trung Hiếu - 11/08/2022
 - Completed Task: 
      + Research Theory for Logging in C#.
-     + Build a small project for Microservices API with Response and Request for Query data,Aggregration in Ocelot.
+     + Extend Microservices project with Nlog.
        - One Assembly for Apigateway use Ocelot.
        - One Assembly process data for Student,Course and join them together.
        - One Assembly process RefreshToken and AccessToken.  
        - Check Authentication for ApiGateway.
+       - Generate Nlog Extestions like library and inject in Main project
      + Build a basic demo use Nlog (Create Nlog module as Library and references in main project)
 
 - Current Tasks: 
@@ -20,8 +21,8 @@ Report 11/08/2022
 - https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit (None modified today)
 
 Demo 11/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day18/NewWebMicroservicesForAPI
-- 
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day19/TestNlogLibraryExtension.518H0090 (Nlog module as Library)
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day19/NewWebMicroservicesForAPI (Expand with Nlog in StudentCourseController)
 
 link fill performance for work
 

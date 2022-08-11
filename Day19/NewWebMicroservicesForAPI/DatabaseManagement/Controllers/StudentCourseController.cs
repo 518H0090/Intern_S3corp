@@ -2,6 +2,7 @@
 using DatabaseManagement.Models.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NlogExtensions;
 
 namespace DatabaseManagement.Controllers
 {
@@ -10,10 +11,12 @@ namespace DatabaseManagement.Controllers
     public class StudentCourseController : ControllerBase
     {
         private readonly IStudentCourseRepository _repository;
+        private readonly ILoggerManager _logger;
 
-        public StudentCourseController(IStudentCourseRepository repository)
+        public StudentCourseController(IStudentCourseRepository repository, ILoggerManager logger)
         {
             _repository = repository;
+            _logger = logger;
         }
 
         /// <summary>
@@ -28,11 +31,14 @@ namespace DatabaseManagement.Controllers
 
             if (recordedJoin == null)
             {
+                _logger.LogError("Can't Join Two tables");
                 return BadRequest(new
                 {
                     message = "Can't Join two tables"
                 });
             }
+
+            _logger.LogInfo("Recorded Succesful join between Student and Course");
 
             return Ok(recordedJoin);
         }
@@ -48,11 +54,15 @@ namespace DatabaseManagement.Controllers
 
             if (allRecored == null)
             {
+                _logger.LogError("Can't Get All Record");
+
                 return BadRequest(new
                 {
                     message = "Can't  Query Recorded"
                 });
             }
+
+            _logger.LogInfo("Get All Record from tables");
 
             return Ok(allRecored);
         }

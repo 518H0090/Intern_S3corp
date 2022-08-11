@@ -1,0 +1,12 @@
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\bin\Debug\net6.0\NlogExtensions.deps.json
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\bin\Debug\net6.0\NlogExtensions.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\bin\Debug\net6.0\NlogExtensions.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.csproj.AssemblyReference.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.AssemblyInfoInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.AssemblyInfo.cs
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.csproj.CoreCompileInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\refint\NlogExtensions.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\NlogExtensions.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day19\NewWebMicroservicesForAPI\NlogExtensions\obj\Debug\net6.0\ref\NlogExtensions.dll

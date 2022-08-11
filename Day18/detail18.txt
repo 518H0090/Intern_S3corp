@@ -8,12 +8,10 @@ Huỳnh Trần Trung Hiếu - 10/08/2022
        - Check Authentication for ApiGateway.
      + Old project for Microservices (separate one big project to another api and connect each other with Api Gateway)
        - Link : https://github.com/518H0090/Intern_S3corp/tree/main/Day14/ConnectTwoAPI001
-
-	
+     + Build a basic demo use Nlog 
 
 - Current Tasks: 
-    + Write Report for Ocelot in C#.
-    + Write Report for Loggin in C#.
+    + Write Report for Logging in C#.
        
 - Next Task: Move to next topic Research for Message Broker - Kafka,
 Event Driven Architecture.
@@ -25,6 +23,7 @@ Report 10/08/2022
 
 Demo 10/08/2022
 - https://github.com/518H0090/Intern_S3corp/tree/main/Day18/NewWebMicroservicesForAPI
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day18/TestNlogInWebAPI (just for test Nlog)
 
 link fill performance for work
 
