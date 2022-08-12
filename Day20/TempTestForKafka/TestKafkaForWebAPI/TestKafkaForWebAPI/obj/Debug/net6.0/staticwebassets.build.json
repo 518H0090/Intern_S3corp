@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "9roKX2va7HP1LoOkBYLped5B88XlcbmlDp6PL/QqJwI=",
+  "Source": "TestKafkaForWebAPI",
+  "BasePath": "_content/TestKafkaForWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

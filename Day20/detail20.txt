@@ -1,0 +1,25 @@
++Huỳnh Trần Trung Hiếu - 12/08/2022
+- Completed Task: 
+     + Research Theory for Kafka.
+     + Install docker.
+     + Following Step by Step tutorial(kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tutorialspedia --from-beginning) 
+       to implement Kafka in C# :       
+
+- Current Tasks: 
+    + Research detail how to config Nlog.config.
+    + Research how to use kafka in .NET CORE.
+    + Write report for kafka.
+       
+- Next Task: Write a small demo apply kafka with microservices.
+
+- Issue: No issue today.
+
+Report 12/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 12/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
