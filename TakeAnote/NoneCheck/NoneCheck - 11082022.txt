@@ -13,3 +13,6 @@ https://www.davidguida.net/asp-net-core-structured-logging-part-2-the-infrastruc
 
 Part 3 : 
 https://towardsdev.com/writing-logs-into-sql-server-with-nlog-and-net-6-0-fe212f2f6d19
+
+
+https://www.codeproject.com/Tips/5276319/Integrating-NLog-with-ASP-NET-Core-Web-Application
