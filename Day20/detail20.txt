@@ -3,12 +3,13 @@
      + Research Theory for Kafka.
      + Install docker.
      + Following Step by Step tutorial(kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tutorialspedia --from-beginning) 
-       to implement Kafka in C# :       
+       to implement Kafka in C# : https://github.com/518H0090/Intern_S3corp/tree/main/Day20/TempTestForKafka/TestKafkaForWebAPI.      
 
 - Current Tasks: 
     + Research detail how to config Nlog.config.
-    + Research how to use kafka in .NET CORE.
+    + Try to comprehensible knowledge how to implement kafka in .NET CORE (more detail).
     + Write report for kafka.
+ 
        
 - Next Task: Write a small demo apply kafka with microservices.
 
@@ -19,6 +20,10 @@ Report 12/08/2022
 
 Demo 12/08/2022
 - None.
+
+References 12/08/2022
+- https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+- https://tutorialspedia.com/how-to-setup-kafka-on-windows-install-and-run-kafka-as-windows-service/
 
 link fill performance for work
 

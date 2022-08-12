@@ -1,0 +1,11 @@
+D:\kafka\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tutorialspedia --from-beginning
+
+D:\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
+
+D:\kafka\bin\windows>kafka-console-consumer.bat -topic tutorialspedia -bootstrap-server localhost:9092
+
+D:\kafka\bin\windows>kafka-console-producer.bat -topic tutorialspedia -bootstrap-server localhost:9092
+
+D:\kafka\bin\windows>kafka-server-start.bat ..\..\config\server.properties
+
+D:\kafka\bin\windows>kafka-server-start.bat ..\..\config\server.properties
