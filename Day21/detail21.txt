@@ -1,0 +1,28 @@
++Huỳnh Trần Trung Hiếu - 15/08/2022
+- Completed Task: 
+     + Research detail for Nlog - Nlog.Extensions, Nlog, Nlog.Web.ASPNetCore.  
+     + Research Event Driven Architecture concepts.
+     + Research theory for Message Broker - Kafka.
+       - Understand basic concept and title : Producer, Customer, Broker , Topic, Partition, Offset 
+
+- Current Tasks: 
+    + Research implement Kafka in .Net Core 6.0.
+    + Complete report for Kafka.
+       
+- Next Task: Write a small demo apply kafka with microservices and expand more knowledge.
+
+- Issue: No issue today.
+
+Report 15/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 15/08/2022
+- None.
+
+References 15/08/2022
+- https://www.codemag.com/Article/2201061/Working-with-Apache-Kafka-in-ASP.NET-6-Core
+- https://tutorialspedia.com/how-to-setup-kafka-on-windows-install-and-run-kafka-as-windows-service/
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
