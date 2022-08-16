@@ -1,0 +1,30 @@
++Huỳnh Trần Trung Hiếu - 16/08/2022
+- Completed Task: 
+     + Research Event Driven Architecture concepts.
+     + Research theory for Message Broker - Kafka.
+       - Understand basic concept and title : Producer, Customer, Broker , Topic, Partition, Offset 
+     + Install Docker and Kafka.
+     + Research Event In C# (Delegate with event, EventHandler, EventArgument, publisher, subscriber)
+     + Find a command for run kafka in windows.
+
+- Current Tasks: 
+    + Research implement Kafka in .Net Core 6.0.
+    + Complete report for Kafka.
+    + Write a small demo test Kafka in .Net Core 6.0.
+       
+- Next Task: Write a project to apply Kafka with Microservices in .Net Core.
+
+- Issue: No issue today.
+
+Report 16/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 16/08/2022
+- None.
+
+References 16/08/2022
+- None
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
