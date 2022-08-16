@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rxCLP70FS7TvcphtW7o8v5PXpgB72EqwoNwY4kZwpe0=",
+  "Source": "KafkaProducerForNetCore",
+  "BasePath": "_content/KafkaProducerForNetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

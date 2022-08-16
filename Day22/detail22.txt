@@ -3,14 +3,14 @@
      + Research Event Driven Architecture concepts.
      + Research theory for Message Broker - Kafka.
        - Understand basic concept and title : Producer, Customer, Broker , Topic, Partition, Offset 
-     + Install Docker and Kafka.
      + Research Event In C# (Delegate with event, EventHandler, EventArgument, publisher, subscriber)
      + Find a command for run kafka in windows.
+     + Follow Step by Step to implement basic Producer and Consumer in .Net 
+       https://github.com/518H0090/Intern_S3corp/tree/main/Day22/TestTopicKafkaForNet
 
 - Current Tasks: 
-    + Research implement Kafka in .Net Core 6.0.
     + Complete report for Kafka.
-    + Write a small demo test Kafka in .Net Core 6.0.
+    + Research detail for how to use Kafka with Microservices in .Net Core.
        
 - Next Task: Write a project to apply Kafka with Microservices in .Net Core.
 
