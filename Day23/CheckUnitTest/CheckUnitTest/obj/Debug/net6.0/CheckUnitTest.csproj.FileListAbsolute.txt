@@ -1,0 +1,15 @@
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\bin\Debug\net6.0\CheckUnitTest.exe
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\bin\Debug\net6.0\CheckUnitTest.deps.json
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\bin\Debug\net6.0\CheckUnitTest.runtimeconfig.json
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\bin\Debug\net6.0\CheckUnitTest.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\bin\Debug\net6.0\CheckUnitTest.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.csproj.AssemblyReference.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.AssemblyInfoInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.AssemblyInfo.cs
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\refint\CheckUnitTest.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\CheckUnitTest.genruntimeconfig.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\CheckUnitTest\CheckUnitTest\obj\Debug\net6.0\ref\CheckUnitTest.dll

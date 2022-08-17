@@ -1,0 +1,29 @@
++Huỳnh Trần Trung Hiếu - 17/08/2022
+- Completed Task: 
+     + Build a small demo implement ConfluentKafka for .Net Core 6.0 
+       (Follow Link https://medium.com/@srigumm/building-realtime-streaming-applications-using-net-core-and-kafka-ad45ed081b31)
+       - ConsumerManager for process Consumer for kafka
+       - ProducerManager for process Producer for kafka
+       - OrderRequestService for process update event in kafka.
+     
+
+- Current Tasks: 
+    + Research for Unit Test
+    + Write a basic demo just for test features (Unit Test In .Net with console project)
+       
+- Next Task: Understand, complete report and implement Unit Test in .Net Core.
+
+- Issue: No issue today.
+
+Report 17/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 17/08/2022
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day23/TestKafkaWithMoreOptions/TestKafkaWithMoreOptions
+
+References 17/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
