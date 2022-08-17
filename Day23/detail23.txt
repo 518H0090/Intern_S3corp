@@ -5,11 +5,12 @@
        - ConsumerManager for process Consumer for kafka
        - ProducerManager for process Producer for kafka
        - OrderRequestService for process update event in kafka.
-     
-
+     + Check NUnitTest for Console application in .Net Core
+     + Check XUnitTest for Console application in .Net Core
+       
 - Current Tasks: 
     + Research for Unit Test
-    + Write a basic demo just for test features (Unit Test In .Net with console project)
+    + Write report for Unit Test.
        
 - Next Task: Understand, complete report and implement Unit Test in .Net Core.
 
@@ -19,7 +20,8 @@ Report 17/08/2022
 - https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 17/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day23/TestKafkaWithMoreOptions/TestKafkaWithMoreOptions
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day23/TestKafkaWithMoreOptions/TestKafkaWithMoreOptions 
+  (Kafka with Background Service for Event publisher / consumer)
 
 References 17/08/2022
 - None.

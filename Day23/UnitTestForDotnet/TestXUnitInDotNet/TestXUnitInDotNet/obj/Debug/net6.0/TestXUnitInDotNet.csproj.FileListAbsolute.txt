@@ -1,0 +1,15 @@
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\bin\Debug\net6.0\TestXUnitInDotNet.exe
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\bin\Debug\net6.0\TestXUnitInDotNet.deps.json
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\bin\Debug\net6.0\TestXUnitInDotNet.runtimeconfig.json
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\bin\Debug\net6.0\TestXUnitInDotNet.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\bin\Debug\net6.0\TestXUnitInDotNet.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.csproj.AssemblyReference.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.AssemblyInfoInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.AssemblyInfo.cs
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.csproj.CoreCompileInputs.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\refint\TestXUnitInDotNet.dll
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.pdb
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\TestXUnitInDotNet.genruntimeconfig.cache
+C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day23\TestXUnitInDotNet\TestXUnitInDotNet\obj\Debug\net6.0\ref\TestXUnitInDotNet.dll
