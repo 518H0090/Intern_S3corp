@@ -1,0 +1,5 @@
+Apply Kafka for Real project in .Net core
+
+https://medium.com/@srigumm/building-realtime-streaming-applications-using-net-core-and-kafka-ad45ed081b31
+
+detail core : https://github.com/srigumm/dotnetcore-kafka-integration

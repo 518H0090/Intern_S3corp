@@ -5,14 +5,17 @@
        - Understand basic concept and title : Producer, Customer, Broker , Topic, Partition, Offset 
      + Research Event In C# (Delegate with event, EventHandler, EventArgument, publisher, subscriber)
      + Find a command for run kafka in windows.
-     + Follow Step by Step to implement basic Producer and Consumer in .Net 
-       https://github.com/518H0090/Intern_S3corp/tree/main/Day22/TestTopicKafkaForNet
+     + Build a small demo implement ConfluentKafka for .Net Core 6.0 (just use for send message and receive message from kafka)
+       - Consumer (application console)
+       - Producer (WebApi)
 
 - Current Tasks: 
-    + Complete report for Kafka.
     + Research detail for how to use Kafka with Microservices in .Net Core.
+    + Research how to implement kafka in real project.
+       https://medium.com/@srigumm/building-realtime-streaming-applications-using-net-core-and-kafka-ad45ed081b31 
+       (have built project but it can't auto update order, just send publisher for suscriber and receive message)
        
-- Next Task: Write a project to apply Kafka with Microservices in .Net Core.
+- Next Task: Research more for using Kafka in .Net Core.
 
 - Issue: No issue today.
 
@@ -20,10 +23,10 @@ Report 16/08/2022
 - https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 16/08/2022
-- None.
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day22/KafkaProducerForNetCore
 
 References 16/08/2022
-- None
+- None.
 
 link fill performance for work
 

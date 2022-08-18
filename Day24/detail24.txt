@@ -1,0 +1,27 @@
++Huỳnh Trần Trung Hiếu - 18/08/2022
+- Completed Task: 
+     + Research XUnit for .Net Core.
+     + Research Moq.
+       
+- Current Tasks: 
+    + Research detail for Kafka (deep into implement services)
+    + Write report for Unit Test.
+    + Research Moq Fluent interface.
+    + Find how to implement XUnit with Moq for Repository and Controller.
+       
+- Next Task: Complete report and implement XUnit test with moq for demo.
+
+- Issue: No issue today.
+
+Report 18/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 18/08/2022
++ None
+
+References 18/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

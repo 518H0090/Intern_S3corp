@@ -2,11 +2,10 @@
 - Completed Task: 
      + Build a small demo implement ConfluentKafka for .Net Core 6.0 
        (Follow Link https://medium.com/@srigumm/building-realtime-streaming-applications-using-net-core-and-kafka-ad45ed081b31)
-       - ConsumerManager for process Consumer for kafka
-       - ProducerManager for process Producer for kafka
-       - OrderRequestService for process update event in kafka.
-     + Check NUnitTest for Console application in .Net Core
-     + Check XUnitTest for Console application in .Net Core
+     + Check UnitTest in .Net Core      
+       - Check NUnitTest for Console application in .Net Core
+       - Check XUnitTest for Console application in .Net Core
+       - Git : https://github.com/518H0090/Intern_S3corp/tree/main/Day23/UnitTestForDotnet
        
 - Current Tasks: 
     + Research for Unit Test
@@ -20,8 +19,11 @@ Report 17/08/2022
 - https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 17/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day23/TestKafkaWithMoreOptions/TestKafkaWithMoreOptions 
-  (Kafka with Background Service for Event publisher / consumer)
++ https://github.com/518H0090/Intern_S3corp/tree/main/Day23/TestKafkaWithMoreOptions/TestKafkaWithMoreOptions 
+  - Controller process for producer.
+  - ConsumerManager for process Consumer for kafka
+  - ProducerManager for process Producer for kafka
+  - OrderRequestService for process update event in kafka (Background services process for Consumer and then publish new Producer).
 
 References 17/08/2022
 - None.
