@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "O3bzqv1VqUZ+QjBgsoxKda882UhW5d2AB4yT34RWKkk=",
+  "Source": "TestWebAPiWithXUnitTest",
+  "BasePath": "_content/TestWebAPiWithXUnitTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
