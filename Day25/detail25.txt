@@ -14,7 +14,7 @@
 - Issue: No issue today.
 
 Report 19/08/2022
-- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+- https://github.com/518H0090/Intern_S3corp/tree/main/Day25/TestWebAPiWithXUnitTest (In process)
 
 Demo 19/08/2022
 + None
