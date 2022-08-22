@@ -11109,6 +11109,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoFixture >= 4.17.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.8",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "Moq >= 4.18.2",
       "TestWebAPiWithXUnitTest >= 1.0.0",
@@ -11168,6 +11169,10 @@
           "AutoFixture": {
             "target": "Package",
             "version": "[4.17.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[6.0.8, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

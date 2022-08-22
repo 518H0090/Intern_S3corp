@@ -13,18 +13,41 @@ namespace TestWebAPiWithXUnitTest.Models.ServiceHelpers
             _repository = repository;
         }
 
+        /// <summary>
+        ///   <para>
+        ///     <br />
+        ///   </para>
+        ///   <para>Investigates all character.
+        /// </para>
+        /// </summary>
+        /// <returns>
+        ///   <br />
+        /// </returns>
         public async Task<List<InvestigateCharacterResponse>> InvestigateAllCharacter()
         {
             var getAllCharacter = await _repository.GetAllCharacter();
 
             if (getAllCharacter == null)
             {
-                return null;
+                //return null;
+
+                throw new Exception();
             }
 
             return getAllCharacter;
         }
 
+        /// <summary>
+        ///   <para>
+        ///     <br />
+        ///   </para>
+        ///   <para>Creates new character.
+        /// </para>
+        /// </summary>
+        /// <param name="request">The request.</param>
+        /// <returns>
+        ///   <br />
+        /// </returns>
         public async Task<CreateCharacterResponse> NewCharacter(CreateCharacterRequest request)
         {
             var createdCharacter = await _repository.CreateCharacter(request);

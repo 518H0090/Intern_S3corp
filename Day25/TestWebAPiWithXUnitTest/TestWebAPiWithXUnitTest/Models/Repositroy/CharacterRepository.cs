@@ -15,6 +15,11 @@ namespace TestWebAPiWithXUnitTest.Models.Repositroy
             _context = context;
         }
 
+        /// <summary>Creates the character.</summary>
+        /// <param name="request">The request.</param>
+        /// <returns>
+        ///   <br />
+        /// </returns>
         public async Task<CreateCharacterResponse> CreateCharacter(CreateCharacterRequest request)
         {
             if (request == null)
@@ -44,6 +49,10 @@ namespace TestWebAPiWithXUnitTest.Models.Repositroy
             };
         }
 
+        /// <summary>Gets all character.</summary>
+        /// <returns>
+        ///   <br />
+        /// </returns>
         public async Task<List<InvestigateCharacterResponse>> GetAllCharacter()
         {
             List<InvestigateCharacterResponse> listCharacter = new List<InvestigateCharacterResponse>();

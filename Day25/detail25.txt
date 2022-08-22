@@ -14,10 +14,10 @@
 - Issue: No issue today.
 
 Report 19/08/2022
-- https://github.com/518H0090/Intern_S3corp/tree/main/Day25/TestWebAPiWithXUnitTest (In process)
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
 Demo 19/08/2022
-+ None
++ https://github.com/518H0090/Intern_S3corp/tree/main/Day25/TestWebAPiWithXUnitTest (In process)
 
 References 19/08/2022
 - None.
