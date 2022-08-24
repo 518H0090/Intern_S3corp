@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "29lh/PhryLIkfKue0Xc7LCenH57X37oAKeAE2GDLilQ=",
+  "Source": "TestDockerForWebApi",
+  "BasePath": "_content/TestDockerForWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

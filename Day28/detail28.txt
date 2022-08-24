@@ -1,0 +1,29 @@
+
++Huỳnh Trần Trung Hiếu - 24/08/2022
+- Completed Task: 
+    + Research XUnit for .Net Core.
+    + Research Moq.
+    + Research Moq Fluent interface.
+    + Test Config Dockerfile for .Net Core Web Api 6.0
+      - Error when config with entity framework core.
+       
+- Current Tasks: 
+  + Research in detail for Unit test. 
+  + Research for docker
+          
+- Next Task: Expand Knowledge for Unit test, Research and write report for Docker, Write project and build microservices with docker.
+
+- Issue: can't run entity framework core in Docker.
+
+Report 24/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 24/08/2022
+- None
+
+References 24/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
