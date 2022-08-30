@@ -1,0 +1,34 @@
++Huỳnh Trần Trung Hiếu - 22/08/2022
+- Completed Task: 
+    + Research XUnit for .Net Core.
+    + Research Moq.
+    + Write report for Unit Test.
+    + Research Moq Fluent interface.
+    + Find how to implement XUnit with Moq for Repository and Controller.
+    + Write a demo try to implement Unit test for Repository, Serivces , Controller 
+     - Finish Repository
+     - Finish Services
+     - Finish Controller
+     - Implement Unit test for Repository
+     - Implement Unit test for Services
+     - Implement Unit test for Controller
+       
+- Current Tasks: 
+  + Research in detail for Unit test. 
+          
+- Next Task: Complete Report and Research for Docker.
+
+- Issue: No issue today.
+
+Report 22/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 22/08/2022
++ https://github.com/518H0090/Intern_S3corp/tree/main/Day25/TestWebAPiWithXUnitTest
+
+References 22/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

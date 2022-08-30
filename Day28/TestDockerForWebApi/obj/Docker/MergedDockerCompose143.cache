@@ -1,0 +1,42 @@
+name: dockercompose12818561294482485241
+services:
+  sql.data:
+    environment:
+      ACCEPT_EULA: "Y"
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 34008
+      published: "34008"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day28\TestDockerForWebApi\data\mssql
+      target: /var/opt/mssql3
+      bind:
+        create_host_path: true
+  testdockerforwebapi:
+    build:
+      context: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day28\TestDockerForWebApi
+      dockerfile: TestDockerForWebApi/Dockerfile
+    depends_on:
+      sql.data:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: testdockerforwebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "9000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose12818561294482485241_default

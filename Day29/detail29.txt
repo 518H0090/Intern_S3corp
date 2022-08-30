@@ -1,0 +1,25 @@
++Huỳnh Trần Trung Hiếu - 25/08/2022
+- Completed Task: 
+    + Research Docker basic.
+      
+- Current Tasks:  
+  + Research detail for docker. 
+  + Research Kubernetes with docker.
+  + Write report for docker.
+          
+- Next Task: Research implements for Dotnet.
+
+- Issue: None.
+
+Report 25/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 25/08/2022
+- None
+
+References 25/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

@@ -1,0 +1,35 @@
+name: dockercompose12818561294482485241
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: unless-stopped
+  testdockerforwebapi:
+    build:
+      context: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day28\TestDockerForWebApi
+      dockerfile: TestDockerForWebApi/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: testdockerforwebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose12818561294482485241_default

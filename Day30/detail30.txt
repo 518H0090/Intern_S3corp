@@ -1,0 +1,31 @@
++Huỳnh Trần Trung Hiếu - 26/08/2022
+- Completed Task: 
+    + Research Basic Theory for Docker.
+    + Learn some basic CLI worked for Docker.
+      
+- Current Tasks:
+  + Research Kubernetes with docker. 	
+    (In Process Pause at 2:57:32 / 4:17:59 for Kubernetes
+     - Willing to Research Kubernetes if have Leisure time) 
+  + Researching Basically implements for Dotnet. (In Process)
+    - Basic Config for Weatherforecast Api (Done)
+    - Implement Sql (In Process)
+    - Finish Basic CRUD (In Process)   
+  + Write report for docker. (In Process)
+          
+- Next Task: Research Microservices Again with Docker, Write a small project.
+
+- Issue: None.
+
+Report 26/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 26/08/2022
+- None
+
+References 26/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

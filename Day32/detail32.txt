@@ -1,0 +1,31 @@
++Huỳnh Trần Trung Hiếu - 30/08/2022
+- Completed Task: 
+    + Comprehend to Container, Registry,Image, Volume.
+    + Config Dockerfile basic for WebApi.
+    + Config Sql With Dockerfile.
+    + Relearn Microservices, Monolithic.
+      
+- Current Tasks:
+  + Researching Basically implements for Dotnet. (In Process)
+    - Learn How to use Docker in Microserivces (Ocelot, Webapi, RabbitMS).
+      (Following tutorial - https://www.youtube.com/watch?v=DgVjEo3OGBI)
+    - Write report for docker. (In Process)
+    - Research Real Project (In Process)
+      (https://medium.com/aspnetrun/building-ocelot-api-gateway-microservices-with-asp-net-core-and-docker-container-13f96026e86c)
+          
+- Next Task: Write demo implemented Microservices for Docker.
+
+- Issue: None.
+
+Report 30/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 30/08/2022
+- None
+
+References 30/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

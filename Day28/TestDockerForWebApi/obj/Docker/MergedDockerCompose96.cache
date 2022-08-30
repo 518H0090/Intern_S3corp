@@ -1,0 +1,38 @@
+name: dockercompose12818561294482485241
+services:
+  ms-sql-server:
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Express
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: unless-stopped
+  testdockerforwebapi:
+    build:
+      context: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day28\TestDockerForWebApi
+      dockerfile: TestDockerForWebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Database: TestDockerDatabaseWtihDotnet
+      DbPort: "1433"
+      DbServer: ms-sql-server
+    image: testdockerforwebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose12818561294482485241_default

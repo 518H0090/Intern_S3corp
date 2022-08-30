@@ -12,7 +12,8 @@
      - Implement Unit test for Repository
      - Implement Unit test for Services
      - Implement Unit test for Controller
-   + Clone reactjs code then config it to dockerfile and run in docker. 
+   + Clone reactjs repository in github then config it to dockerfile and run in docker. 
+     - https://github.com/518H0090/Intern_S3corp/tree/main/Day27/Test_docker
        
 - Current Tasks: 
   + Research in detail for Unit test. 

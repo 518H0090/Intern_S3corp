@@ -1,0 +1,29 @@
++Huỳnh Trần Trung Hiếu - 29/08/2022
+- Completed Task: 
+    + Comprehend to Container, Registry,Image, Volume.
+    + Config Dockerfile basic for WebApi.
+    + Config Sql With Dockerfile.
+    + Relearn Microservices, Monolithic.
+      
+- Current Tasks:
+    
+  + Researching Basically implements for Dotnet. (In Process)
+    - Learn how to implement WebApi with Mongodb and config to Docker (In process).
+    - Write report for docker. (In Process)
+          
+- Next Task: Write demo implemented for Docker.
+
+- Issue: None.
+
+Report 29/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 29/08/2022
+- None
+
+References 29/08/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
