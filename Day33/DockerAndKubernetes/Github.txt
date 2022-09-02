@@ -1,0 +1,51 @@
+#Github Command
+# Link https://www.tutorialspoint.com/git/index.htm
+
+
+---------------------------------
+# Git Setting Global
+# Setting Username
+git config --global user.name "Jerry Mouse"
+
+# Setting email id
+git config --global user.email "jerry@tutorialspoint.com"
+
+#Avoid merge commits for pulling
+git config --global branch.autosetuprebase always
+
+#Color highlighting
+
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+
+Link : https://www.tutorialspoint.com/git/git_environment.htm
+
+-----------------------------------------
+
+git init
+
+git remote add origin gituser@git.server.com:project.git
+
+git push origin master
+
+git clone gituser@git.server.com:project.git
+
+git status -s
+
+git add string.c
+
+git commit -m 'Implemented my_strlen function'
+
+git log
+
+# view commit detail
+git show cbe1249b140dad24b2c35b15cc7e26a6f02d2277
+
+#review changes
+git diff
+
+
+
+
+
