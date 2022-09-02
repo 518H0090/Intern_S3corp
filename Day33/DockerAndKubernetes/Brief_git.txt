@@ -1,0 +1,81 @@
+--------------------------
+Git Bash
+
+git config --global user.name "Trung Hieu"
+git config --global user.email nhoxhieuro5@gmail.com
+git config --global init.default branch main
+
+git config -h (show git config command)
+git help config (detail git config)
+
+git init
+git status
+git add <filename.extension>
+git commit -m "Message"
+git rm --cached <file> (Unstage)
+
+----------------------
+.gitignore -- ignore file for git.
+
+for example inside .gitignore
+#ignore all .txt files
+*.txt
+--------------
+
+git diff
+
+git restore --staged <file>
+
+git commit -a -m "message"
+
+git rm <file>
+
+git restore <file>
+
+git mv <oldnamefile> <newnamefile>
+
+git log 
+
+git log --oneline
+
+ git log -p
+
+# Q to Exit git log
+
+git help log
+
+git reset <headid in git log>
+
+git rebase -i --root 
+
+---------------------------------
+git branch <branchname>
+
+git branch
+
+git switch <branchname>
+
+git merge -m "Message" <branchname>
+git merge <branchname>
+
+git branch -d <branchname>
+
+git switch -c <branchname>
+
+git push
+
+git push --all
+
+git pull = git fetch + git merge
+
+---------------------------------
+
+Github
+
+https://www.youtube.com/watch?v=tRZGeaHPoaw
+33:30 / 46:18
+  
+
+
+
+

@@ -1,0 +1,11 @@
+.NEt 
+https://www.youtube.com/watch?v=AtzE4qYgXPQ
+
+Git
+https://www.youtube.com/watch?v=tRZGeaHPoaw
+
+kubernetes
+https://www.youtube.com/watch?v=s_o8dwzRlu4
+
+Docker
+https://www.youtube.com/watch?v=hhfrFvuHRPU&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=3
