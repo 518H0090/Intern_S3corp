@@ -1,0 +1,53 @@
+docker pull <image:tag>
+
+----------------------------
+Dockerfile
+
+FROM <parentimage>
+
+WORKDIR <dirdocker>
+
+COPY <hostfolder> <dockerfolder>
+
+RUN <command install package>
+
+EXPOSE <define port>
+
+CMD [<Command when container work>]
+
+#build Dockerfile
+docker build -t <imagename:tag> .
+
+----------------------------------------------
+.dockerignore
+
+# Example inside
+
+#ignore file or folder
+
+# ignore every file with md extension
+*.md
+---------------------------------------------
+
+docker images
+
+docker run --name <containername> <image> 
+
+docker ps 
+
+docker stop <container>
+
+docker run --name <containername>  -p <hostpost:dockerhost>  -d <image>
+
+docker stop <container>
+
+docker ps -a
+
+docker start <container>
+
+--------------------------------------------
+https://www.youtube.com/watch?v=4XsjXscp70o&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=9
+
+ 
+
+
