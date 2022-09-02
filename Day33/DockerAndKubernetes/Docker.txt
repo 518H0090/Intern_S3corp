@@ -1,1 +1,36 @@
 # Docker Command
+
+# First Test : docker run -dp (-it --name name) 80:80 docker/getting-started 
+
+#You can stop and remove a container in a single command by adding the “force” flag to the docker rm command. For example: 
+docker rm -f <the-container-id>
+
+docker ps 
+
+docker ps -a
+
+docker images
+
+docker build -t name .
+
+docker login -u 518H0090
+
+docker tag getting-started YOUR-USER-NAME/getting-started
+
+docker push YOUR-USER-NAME/getting-started
+
+
+# Test Docker Image when Pushing in DockerHub
+https://labs.play-with-docker.com/
+
+docker exec <container-id> cat /data.txt
+
+docker run -it ubuntu ls /
+
+docker volume create todo-db
+
+docker rm -f <id>
+
+docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+
+docker volume inspect todo-db
