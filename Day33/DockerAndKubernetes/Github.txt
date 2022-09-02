@@ -37,6 +37,7 @@ git add string.c
 
 git commit -m 'Implemented my_strlen function'
 
+# review history commit
 git log
 
 # view commit detail
@@ -44,6 +45,61 @@ git show cbe1249b140dad24b2c35b15cc7e26a6f02d2277
 
 #review changes
 git diff
+
+#override correct last commit
+git commit --amend -m 'Changed return type of my_strlen to size_t'
+
+git push origin master
+
+git pull
+
+#Saved working directory , stash the changes
+git stash
+
+git stash list
+
+#remove the change from the stack
+git stash pop
+
+# move to another directory
+git mv string.c src/
+
+#Add new file
+git add Makefile
+#rename file
+git mv string.c string_operations.c
+
+# remove from repository
+git rm string_operations
+
+# Remove from repository but still save in client.
+git rm --cached <tên file>   
+
+# Undo change
+#Revert Uncommitted Changes - Use to backup file delete when use rm (local repository.)
+git checkout string_operations.c
+
+git checkout HEAD -- string_operations.c
+
+
+git branch <branch name>
+
+git checkout new_branch
+
+git checkout -b test_branch
+
+git branch
+
+git branch -D test_branch
+
+git branch -m new_branch wchar_support
+
+git push origin wchar_support   <−−− Observer branch_name
+
+git merge origin/wchar_support
+
+
+
 
 
 
