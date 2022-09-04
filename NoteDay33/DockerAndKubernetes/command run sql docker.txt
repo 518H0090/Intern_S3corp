@@ -1,0 +1,10 @@
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Hieuro5122" -e "MSSQL_PID=Express" -p 1433:1433 <microsoftsql in dockerhub>
+
+docker exec -it <container> <command>
+
+
+docker exec -it <container> <command> -S localhost -U SA -P "Password"
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Hieuro5122" -e "MSSQL_PID=Express" -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest 
+
+https://blog.medhat.ca/2022/01/docker-compose-with-aspnet-60-sql-server.html

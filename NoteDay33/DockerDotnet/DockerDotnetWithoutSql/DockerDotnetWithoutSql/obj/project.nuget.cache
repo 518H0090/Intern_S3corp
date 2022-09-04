@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "AENPg62ojJeUbQAaJPp5M0N8orvrNFjCi45jY5FUKQMsftxNloanCe4CowMXpLp2Wzwk1ITG+bpqcTC1wW7Bug==",
+  "success": true,
+  "projectFilePath": "D:\\S3corp\\Intern_S3corp\\NoteDay33\\DockerDotnet\\DockerDotnetWithoutSql\\DockerDotnetWithoutSql\\DockerDotnetWithoutSql.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\TRUNG HIEU PC3\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

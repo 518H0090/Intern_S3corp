@@ -1,0 +1,14 @@
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\DockerDotnetWithoutSql.deps.json
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\DockerDotnetWithoutSql.runtimeconfig.json
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\appsettings.Development.json
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\appsettings.json
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\DockerDotnetWithoutSql.exe
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\DockerDotnetWithoutSql.dll
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\Microsoft.OpenApi.dll
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\bin\Debug\DockerDotnetWithoutSql.pdb
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\obj\Debug\docker-compose.dcproj.CopyComplete

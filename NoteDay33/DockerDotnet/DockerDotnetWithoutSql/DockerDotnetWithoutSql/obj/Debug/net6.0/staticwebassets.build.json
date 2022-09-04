@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "j+uXIJz0Thnqe4JhqABEmFWYinZSWkczHC/AvRtx+68=",
+  "Source": "DockerDotnetWithoutSql",
+  "BasePath": "_content/DockerDotnetWithoutSql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

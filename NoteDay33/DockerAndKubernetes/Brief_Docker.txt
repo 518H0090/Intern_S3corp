@@ -1,0 +1,115 @@
+docker pull <image:tag>
+
+----------------------------
+Dockerfile
+
+FROM <parentimage>
+
+WORKDIR <dirdocker>
+
+COPY <hostfolder> <dockerfolder>
+
+RUN <command install package>
+
+EXPOSE <define port>
+
+CMD [<Command when container work>]
+
+#build Dockerfile
+docker build -t <imagename:tag> .
+
+----------------------------------------------
+.dockerignore
+
+# Example inside
+
+#ignore file or folder
+
+# ignore every file with md extension
+*.md
+---------------------------------------------
+
+docker images
+
+docker run --name <containername> <image> 
+
+docker ps 
+
+docker stop <container>
+
+docker run --name <containername>  -p <hostpost:dockerhost>  -d <image>
+
+docker stop <container>
+
+docker ps -a
+
+docker start <container>
+
+--------------------------------------------
+docker images 
+
+docker ps
+
+docker image rm <image>
+
+docker image rm -f <image>
+
+docker container rm <container>
+
+docker container rm <container> <etc_container>
+
+docker system prune -a 
+
+docker build -t <image:tag> .
+
+--------------------------------------------
+
+docker start -i <container>
+
+docker run --name <containername>
+-p <port:port> --rm <image:tag>
+
+docker run --name <containername> -p <port:port> --rm -v <computerpath:dockerpath> <image:tag>
+
+docker run --name <containername> -p <port:port> --rm -v <computerpath:dockerpath> -v <anotherdockerpath> <image:tag>
+
+--------------------------------------------------
+https://www.youtube.com/watch?v=TSySwrQcevM&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=11
+
+docker-compose.yaml
+
+--- version
+version : "3.8"
+
+--build app
+services :
+ api:
+   build: <folder_Of_Dockerfile>
+   container_name: <name container>
+   ports: 
+     - <port:port>  
+   volumes: 
+    - <hostpath:dockerpath>
+
+-> docker-compose up
+
+# still remain image and volume
+docker-compose down    
+
+# remain volume
+docker-compose down --rmi all
+
+#delete all
+docker-compose down --rmi all -v
+
+-------------------------------------------------
+
+docker login -u <dockername> 
+docker tag <newimagename> : <oldimagename>
+docker push <image:tag>
+
+
+
+ 
+
+
