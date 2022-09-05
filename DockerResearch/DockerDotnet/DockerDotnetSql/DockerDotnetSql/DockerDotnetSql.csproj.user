@@ -4,6 +4,7 @@
     <ActiveDebugProfile>DockerDotnetSql</ActiveDebugProfile>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day33\DockerDotnet\DockerDotnetSql\DockerDotnetSql\Properties\PublishProfiles\registry.hub.docker.com_518h0090.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

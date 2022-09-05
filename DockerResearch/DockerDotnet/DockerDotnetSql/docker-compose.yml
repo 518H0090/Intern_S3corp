@@ -2,14 +2,14 @@ version: '3.4'
 
 services:
   dockerdotnetsql:
-    #image: ${DOCKER_REGISTRY-}dockerdotnetsql
+    image: 518h0090/dotnetindocker:withsql
     build:
       context: .
       dockerfile: DockerDotnetSql/Dockerfile
-    depends_on:
-      - db
     ports:
       - "8000:80"
+    depends_on:
+      - db
     restart: always
     environment:
       - DBHOST=db
@@ -27,3 +27,4 @@ services:
       MSSQL_PID: Express
     ports:
       - "1433:1433" 
+    restart: always

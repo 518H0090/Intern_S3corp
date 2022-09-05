@@ -13,11 +13,11 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
     volumes:
-      - D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql\DockerDotnetWithoutSql:/app
-      - D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql:/src
-      - C:\Users\TRUNG HIEU PC3\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\TRUNG HIEU PC3\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+      - C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day33\DockerDotnet\DockerDotnetWithoutSql\DockerDotnetWithoutSql:/app
+      - C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day33\DockerDotnet\DockerDotnetWithoutSql:/src
+      - C:\Users\hieu.huynh\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hieu.huynh\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:/root/.nuget/fallbackpackages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 

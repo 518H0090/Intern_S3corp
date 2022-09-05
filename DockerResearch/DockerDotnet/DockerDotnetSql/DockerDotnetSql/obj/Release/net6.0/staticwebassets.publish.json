@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DU5eAynsGv5in0tXzqljfdM/fSzrRctLyff4dOVbtlc=",
+  "Source": "DockerDotnetSql",
+  "BasePath": "_content/DockerDotnetSql",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

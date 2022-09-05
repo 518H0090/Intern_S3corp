@@ -8,7 +8,7 @@ services:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "DockerDotnetSql"
     volumes:
-      - C:\Users\TRUNG HIEU PC3\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\hieu.huynh\vsdbg\vs2017u5:/remote_debugger:rw
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 

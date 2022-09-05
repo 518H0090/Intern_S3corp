@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("Default")
     ));
-
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddScoped<ICharacterRepository, CharacterRepository>();
 
 var app = builder.Build();
@@ -31,7 +31,7 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
 
     var context = services.GetRequiredService<DataContext>();
-    context.Database.Migrate();
+    context.Database.EnsureCreated();
 }
 
 app.UseAuthorization();
