@@ -1,0 +1,44 @@
+name: dockercompose5982015270657650822
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "true"
+      MSSQL_PID: Express
+      SA_PASSWORD: Hieuro5122
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+  dockerdotnetsql:
+    build:
+      context: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day33\DockerDotnet\DockerDotnetSql
+      dockerfile: DockerDotnetSql/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DBHOST: db
+      DBNAME: DotNetDockerTest
+      DBPASSWORD: Hieuro5122
+      DBPORT: "1433"
+      DBUSER: sa
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose5982015270657650822_default

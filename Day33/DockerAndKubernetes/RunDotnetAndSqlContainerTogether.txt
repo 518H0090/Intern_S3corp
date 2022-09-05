@@ -1,0 +1,12 @@
+Link :https://hub.docker.com/repository/docker/518h0090/dotnetindocker/general
+
+Method:
+docker network create sql-server-test
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Hieuro5122" -e "MSSQL_PID=Express" -p 1433:1433 --name db --network sql-server-test mcr.microsoft.com/mssql/server:2022-latest 
+
+docker run -d -p 8000:80 --name aspnet-core --network sql-server-test 518h0090/dotnetindocker:withsql
+
+Produce:
+
+https://hub.docker.com/r/518h0090/dotnetindocker

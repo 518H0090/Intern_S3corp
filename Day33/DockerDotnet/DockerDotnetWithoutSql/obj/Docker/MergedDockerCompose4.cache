@@ -1,0 +1,14 @@
+services:
+  dockerdotnetwithoutsql:
+    build:
+      context: D:\S3corp\Intern_S3corp\NoteDay33\DockerDotnet\DockerDotnetWithoutSql
+      dockerfile: DockerDotnetWithoutSql/Dockerfile
+    container_name: dotnetwithoutsql
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: dockerdotnetwithoutsql
+    ports:
+    - published: 8080
+      target: 80
+    - target: 80
+version: '3.4'

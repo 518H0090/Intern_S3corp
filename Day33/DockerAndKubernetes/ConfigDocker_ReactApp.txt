@@ -1,0 +1,41 @@
+-----------------------------------------
+.dockerignore
+
+*
+node_modules
+
+-------------------------------------------
+Dockerfile
+
+*
+FROM node:17-alpine
+WORKDIR /app
+COPY package.json .
+RUN npm install 
+COPY . .
+EXPOSE 3000
+CMD ["npm","start"]
+
+---------------------------------------
+docker-compose.yaml
+
+*
+version : "3.8"
+services:
+  api:
+    build: ./api
+   container_name: api_c
+   ports:
+      - '4000:4000'
+   volumes:
+     - ./api:/app
+     - ./app/node_modules
+  myblog:
+     build: ./myblog
+     container_name: myblog_c
+     ports:
+       - "3000:3000" 
+    stdin_open: true
+    tty : true    
+
+-------------------------------------------- 

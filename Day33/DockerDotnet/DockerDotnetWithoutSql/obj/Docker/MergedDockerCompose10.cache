@@ -1,0 +1,22 @@
+name: dockercompose18230482676286089270
+services:
+  dockerdotnetwithoutsql:
+    build:
+      context: C:\Users\hieu.huynh\Desktop\WORK_DIRECTORY\InternS3corp\Day33\DockerDotnet\DockerDotnetWithoutSql
+      dockerfile: DockerDotnetWithoutSql/Dockerfile
+    container_name: dotnetwithoutsql
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8080"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose18230482676286089270_default

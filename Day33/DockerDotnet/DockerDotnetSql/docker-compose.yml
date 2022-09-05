@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  dockerdotnetsql:
+    image: 518h0090/dotnetindocker:withsql
+    build:
+      context: .
+      dockerfile: DockerDotnetSql/Dockerfile
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+    restart: always
+    environment:
+      - DBHOST=db
+      - DBPORT=1433
+      - DBUSER=sa
+      - DBPASSWORD=Hieuro5122
+      - DBNAME=DotNetDockerTest
+      - ASPNETCORE_ENVIRONMENT=Development
+  
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest 
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Hieuro5122
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433" 
+    restart: always

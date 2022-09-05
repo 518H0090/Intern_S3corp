@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  dockerdotnetwithoutsql:
+    #image: ${DOCKER_REGISTRY-}dockerdotnetwithoutsql
+    build:
+      context: .
+      dockerfile: DockerDotnetWithoutSql/Dockerfile
+    container_name: dotnetwithoutsql
+    ports:
+      - "8080:80"

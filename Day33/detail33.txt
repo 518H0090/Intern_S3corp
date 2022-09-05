@@ -1,0 +1,37 @@
++Huỳnh Trần Trung Hiếu - 05/09/2022
++ Completed Task: 
+   - Research Docker.
+   - Research implement .Net with Sql in Docker.
+   - Push demo in DockerHub.
+   - Write Report for Docker.
+   - Build Demo For Docker. (Finish)
+     + One Project without Sql.
+      - Config in Dockerfile and Dockercompose.
+      - Push in DockerHub.
+     + One Project with sql.
+      - Create CRUD basic.
+      - Config in Dockerfile and Dockercompose.
+      - Push in DockerHub.
+      - Find Solution to Run Docker (ASP.NET Image combine SqlImage)
+
++ Current Tasks:
+  - Research Frontend Basic.
+  - Write Report for Frontend.
+  - Relearn Knowledge in Roadmap.
+          
++ Next Task: Relearn and Build full project.
+
++ Issue: None.
+
+Report 05/09/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 05/09/2022
+- https://hub.docker.com/r/518h0090/dotnetindocker
+
+References 05/09/2022
+- None.
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
