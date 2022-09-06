@@ -1,0 +1,25 @@
++Huỳnh Trần Trung Hiếu - 05/09/2022
++ Completed Task: 
+  - Research Docker.
+
++ Current Tasks:
+  - Research Docker Swarm.
+  - Research Frontend basic.
+    (Link: https://bizverse.udemy.com/course/the-complete-web-developer-zero-to-mastery/learn/lecture/22648019#overview)
+          
++ Next Task: Write Report, Build a small project and Relearn Knowledge from roadmap.
+
++ Issue: None.
+
+Report 05/09/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 05/09/2022
+- None.
+
+References 05/09/2022
+- Learn to code and become a Web Developer in 2022 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! in bizverse.udemy
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
