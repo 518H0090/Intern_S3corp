@@ -1,0 +1,31 @@
+Tool for Html Css
+- live server
+- F12 in Google Chrome
+- www.color-hex.com
+- htmlcolorcodes.com
+- 
+
+-----------------------------------------
+3 styles use css for html
+
+inline CSS
+<tag style="property:value;"></tag>
+
+internal CSS
+use Style in html
+<style>
+    selector {
+   property : value;
+   }
+</style>
+
+External CSS
+
+use Link to references CSS in html
+
+<lin rel="stylesheet" href="location css">
+
+--------------------------------------------------------
+
+background-attachment : The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+

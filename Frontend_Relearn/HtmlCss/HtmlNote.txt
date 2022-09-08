@@ -1,0 +1,37 @@
+https://zerotomastery.io/blog/learn-to-code-for-free/
+
+https://internship.cse.hcmut.edu.vn/?fbclid=IwAR32DL06xQg-BesNOp7b4sJnMcCvt9f8nlKuQeaIybHHHxRwIBbN2cY7WtA
+
+https://www.facebook.com/groups/134426070063822/?multi_permalinks=2160975380742204&ref=share
+
+http://info.cern.ch/hypertext/WWW/TheProject.html
+
+https://github.com/zero-to-mastery/complete-web-developer-manual
+&nbsp; = space in html
+&gt; = > = &#62;
+&lt = < = &#60;
+&copy; = copyright icon
+&reg; = R icon
+&cent; 
+&pound;
+&yen;
+&euro;
+&spades;
+&clubs;
+&hearts;
+&diams;
+
+# coputer code
+<code>
+ <?php echo "Hello" ?>
+<code>
+
+<code>
+ &lt;?php echo "Hello" ?&gt;
+<code>
+
+#computer font
+<kbd> Ctrl + S </kbd>
+
+
+

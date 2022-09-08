@@ -1,0 +1,20 @@
+# check time execute code inside:
+console.time('<name>')
+Code inside
+console.timeEnd('<name>')
+* name need same in time and timeEnd.
+
+-------------------------------------------------------
+Math.round làm tròn lên khi tren 0.5 xuống khi dưới 0.5
+Math.floor auto làm tròn xuống
+Math.ceil auto làm tròn lên
+
+Math.random() => 0 - 1
+Math.random() * n => 0 - n
+Math.floor(Math.random() * 20 +1) => 1 -> 20
+Math.floor(Math.random() * (max - min + 1)) + min => min-max
+Math.random() * (max - min) + min => min - max-1
+
+---------------------------------------------------------
+
+

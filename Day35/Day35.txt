@@ -1,0 +1,29 @@
++Huỳnh Trần Trung Hiếu - 08/09/2022
++ Completed Task: 
+  - Research Docker.
+  - Html Basic.
+  - Html Semantic.
+  - CSS Basic.
+
++ Current Tasks:
+  - Research CSS Advanced
+    * Flexbox,Grid , Responsive.
+    * build basic project.
+  - Research Javascript Fundamental.
+          
++ Next Task: Write Report, Build a small project, Relearn Knowledge from roadmap and Research Javascript advanced.
+
++ Issue: None.
+
+Report 08/09/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 08/09/2022
+- None.
+
+References 08/09/2022
+- Learn to code and become a Web Developer in 2022 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! in bizverse.udemy
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
