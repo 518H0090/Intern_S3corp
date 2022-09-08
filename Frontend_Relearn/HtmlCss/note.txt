@@ -1,1 +1,10 @@
+<<<<<<< HEAD
+https://bizverse.udemy.com/course/modern-html-css-from-the-beginning/learn/
+
+=======
 https://bizverse.udemy.com/course/modern-html-css-from-the-beginning/learn/lecture/13285260#overview
+>>>>>>> f283b2635f88fbc3a89d6505a2e7b1bceff9e812
+
+
+https://www.pexels.com/vi-vn/
+https://fontawesome.com/
