@@ -1,0 +1,34 @@
++Huỳnh Trần Trung Hiếu - 10/08/2022
++ Completed Task: 
+  - Research Html Basic and Semantic.
+  - Research CSS Basic and Responsive, Flexbox.
+  - Research Javascript Fundamental.
+  - Write Brieft Report for Html, Css, Js basic.
+  -  Follow Tutorial Step by Step Build Hotel Website use Html, CSS.
+    * Basic Interface 
+    * Responsive
+
++ Current Tasks:
+  - Research CSS Advanced.
+    * Grid, Animation.
+    * build project after each Unit.
+    * Follow Build Project Html Css using Flexbox.
+  - Research Javascript DOM.
+  - Expand Information for Report.
+          
++ Next Task: Build project apply everything learn and Relearn Knowledge from roadmap.
+
++ Issue: None.
+
+Report 10/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 10/08/2022
+- None.
+
+References 10/08/2022
+- Learn to code and become a Web Developer in 2022 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! in bizverse.udemy
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

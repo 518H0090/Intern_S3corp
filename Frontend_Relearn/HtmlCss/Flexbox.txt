@@ -1,0 +1,27 @@
+link truyện : https://metruyenchu.com/truyen/tinh-hong-hang-lam
+
++ flex-direction : row/ column (reverse)
+use to change flow of main axis and cross axis.
+
++ display : flex; 
+show flex
+
++ flex-wrap 
+wrap when resize width 
+
++ flex-shrink 
++ flex-grow
++ flex-basis 
+
++ flex
+combine of flex-grow flex-shrink flex-basis
+we can specific all or just 1 
+
++ align-items
+follow cross axis
+
++ justify-content
+follow main axis
+
+
+
