@@ -1,4 +1,4 @@
-+Huỳnh Trần Trung Hiếu - 10/08/2022
++Huỳnh Trần Trung Hiếu - 09/09/2022
 + Completed Task: 
   - Research Html Basic and Semantic.
   - Research CSS Basic and Responsive, Flexbox.
@@ -20,13 +20,13 @@
 
 + Issue: None.
 
-Report 10/08/2022
+Report 09/09/2022
 - https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
 
-Demo 10/08/2022
+Demo 09/09/2022
 - None.
 
-References 10/08/2022
+References 09/09/2022
 - Learn to code and become a Web Developer in 2022 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! in bizverse.udemy
 
 link fill performance for work
