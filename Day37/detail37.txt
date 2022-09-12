@@ -1,0 +1,28 @@
++Huỳnh Trần Trung Hiếu - 12/09/2022
++ Completed Task: 
+  - Research Html Basic and Semantic.
+  - Research CSS Basic and Responsive, Flexbox, Animation, Selectors and Grid.
+  - Research Javascript Fundamental, DOM Basic.
+
++ Current Tasks:
+  - Research Javascript ES6+.
+  - Expand Information for Report.
+  - Follow tutorial build several project for frontend.
+  - Relearn Knowledge from roadmap.
+          
++ Next Task: Build project apply everything learn.
+
++ Issue: None.
+
+Report 12/09/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 12/09/2022
+- None.
+
+References 12/09/2022
+- Learn to code and become a Web Developer in 2022 with HTML, CSS, Javascript, React, Node.js, Machine Learning & more! in bizverse.udemy
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
