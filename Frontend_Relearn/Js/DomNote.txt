@@ -14,3 +14,56 @@ getElementsByClassName()
 getElementsByTagName()
 querySelector()
 querySelectorAll()
+
+----------------------------------
+textContent
+innerText
+innerHtml
+
+------------------------------------------------
+parentNode, parentElement
+childNodes, children
+firstChild, firstElementChild
+lastChild, lastElementChild
+nextSibling, nextElementSibling
+previousSibling, previousElementSibling
+
+document.createElement('<tag>')
+document.createElement('<tag>').className = <name>
+document.createElement('<tag>').Id = <id>
+document.createElement('<tag>').setAttribute(<property>,<value>)
+document.createTextNode('<Message>')
+document.createElement('<tag>').appendChild(document.createTextNode('<Message>'))
+<queryDom>.insertBefore(<new>,<tag>)
+
+-------------------------------------------------
+# EventListener
+
+click, dblclick, 
+mousedown, mouseup 
+mouseenter, mouseleave
+mouseover , mouseout
+mousemove, keydown, keyup, keypress
+focus, blur
+cut,paste,input,change,submit
+  
+e
+e.target
+e.target.id
+e.target.className
+e.target.classList
+e.target.value
+e.type
+e.clientX
+e.clientY
+e.offsetX
+e.offsetY
+e.altKey
+e.ctrlKey
+e.shiftKey
+
+e.preventDefault()
+
+--------------------------------------------------
+
+
