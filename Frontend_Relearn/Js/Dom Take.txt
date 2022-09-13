@@ -1,0 +1,50 @@
+materialize cdn
+fontawesome cdn
+
+-----------------------------------------------
+document
+document.all
+document.all[<index>]
+document.all.length
+document.head
+document.body
+document.doctype
+document.domain
+document.URL
+document.characterSet
+document.contentType
+
+document.forms
+document.forms[<index>]
+document.forms[<index>].method
+document.forms[<index>].action
+document.links
+document.links[0]
+document.links[0].id
+document.links[0].className
+document.links[0].classList
+document.links[0].classList[0]
+
+document.images
+document.scripts
+document.scripts[2].getAttribute('src')
+Array.from(<element>).foreach( <function> )
+
+------------------------------------------------------
+
+document.getElementById('<id>')
+document.getElementById('<id>').id
+document.getElementById('<id>').className
+document.getElementById<'<id>'>.style.<property_css>
+document.getElementById('<id>').textContent
+document.getElementById('<id>').innerText
+document.getElementById('<id>').innerHTML
+
+innerText - can get only visible text 
+textContent - get all text even it hidden or not.
+--------------------------------------------------------
+
+
+
+
+

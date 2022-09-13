@@ -16,5 +16,56 @@ Math.floor(Math.random() * (max - min + 1)) + min => min-max
 Math.random() * (max - min) + min => min - max-1
 
 ---------------------------------------------------------
+IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFES
+
+Declare and Run Function in the same time
+(function)();
+
+(function(para))(para);
+
+--------------------------------------------------------------
+WINDOW
+
+window.outerHeight -- height of browser will change when resize 
+window.outerWidth -- same but use for width
+
+window.innerHeight, window.innerWidth -- display when resize browser
+
+window.scrollY,window.scrollX -- scroll
+
+window.location -- view in console 
+
+window.location.<property_name>
+
+window.location.href = "<url>" -- move to website
+
+window.location.reload() -- reload page
+
+window.history.go(<number>) -- turn back to previous website.
+
+window.history.length -- view all website visit.
+
+window.navigator -- navigator object
+
+-----------------------------------------------------------------------
+
+let and cost -- follow their block scope
+
+var -- will change when if call even in block scope or global scope 
+
+Note : if we have var in global scope and still declare same var in block scope 
+then when var in block scope change it will affect on var in global scope.
+We need use let and const instead of var in ES6 and modern version.
+
+---------------------------------------------------------------------- 
+
+ 
+
+
+
+
+
+
+
 
 

@@ -8,3 +8,20 @@ https://bizverse.udemy.com/course/modern-html-css-from-the-beginning/learn/lectu
 
 https://www.pexels.com/vi-vn/
 https://fontawesome.com/
+
+======================================
+
+Html 
+element{$} * n
+
+example li{$} *4 => li 1 li 2 li 3 li 4
+
+----------------------------------------------------------
+
+HACK IN CSS
+
+html have 16px for font-size
+then we set 62.5% - 10px 
+after that we can set 1.1rem = 11px, 1.2rem = 12px ....
+
+--------------------------------------------------------------
