@@ -1,0 +1,27 @@
++Huỳnh Trần Trung Hiếu - 13/08/2022
++ Completed Task: 
+  - Html BEM.
+  - Javascript DOM.
+  - Use Cors policy and fetch data.
+
++ Current Tasks:
+  - Research Javascript ES6+.
+  - Practice HTML,CSS and Javascript DOM.
+  - Relearn Knowledge from roadmap.
+          
++ Next Task: Build demo for frontend, Combine Api and Frontend.
+
++ Issue: None.
+
+Report 13/08/2022
+- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+
+Demo 13/08/2022
+- None.
+
+References 13/08/2022
+- None
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413

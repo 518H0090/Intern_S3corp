@@ -1,0 +1,16 @@
+--------------------------------
+#view all document
+
+console.dir(document);
+
+-----------------------------------
+# show property in document
+console.log(document.<property>);
+
+------------------------------------
+#Selectors
+getElementById()
+getElementsByClassName()
+getElementsByTagName()
+querySelector()
+querySelectorAll()

@@ -1,0 +1,55 @@
+polyfill
+
+https://www.youtube.com/watch?v=zFO-sSfReFs&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=30
+
+object prototype
+https://www.youtube.com/watch?v=Wi-khBYt658&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=33
+
+<Object>.prototype.<propertyname> = <value>;
+
+Date
+https://www.youtube.com/watch?v=cufyZUUIXjw&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=34
+
+For in/of
+
+For in - Get key
+https://www.youtube.com/watch?v=stbbeMsgldc&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=42
+
+For of - Get Value 
+
+When use with Object 
+*
+Object.keys(<object>)
+Object.values(<object>)
+
+https://www.youtube.com/watch?v=qhShGK5Y10U&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=43
+
+Array Series
+
+foreach, every, some, find, filter
+https://www.youtube.com/watch?v=AT-yhX26_Ao&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=49
+
+map
+https://www.youtube.com/watch?v=-xZkVmkDwbU&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=50
+
+reduce
+https://www.youtube.com/watch?v=-JMh3A556cw&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=51
+https://www.youtube.com/watch?v=gLIXXBIySZ8&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=52
+
+String/Array includes() method
+https://www.youtube.com/watch?v=PozYw4lVgl0&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=53
+
+Callback
+https://www.youtube.com/watch?v=W8vJ-yOtSbE&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=55
+https://www.youtube.com/watch?v=LUt36WnREm0&list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5&index=56
+
+
+DOM Series
+
+
+
+
+
+
+
+
