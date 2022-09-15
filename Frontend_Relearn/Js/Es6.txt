@@ -1,0 +1,22 @@
+https://unitop.com.vn/kinh-nghiem-hoc-css.html/
+
+----------------------------------------
+BabelJs 
+https://www.diffchecker.com/
+
+---------------------------------------
+<Array>.forEach(function() { });
+
+<Array>.map(function() {return <value_expect> });
+
+<Arra>.filter(function() { return <value_find> });
+
+<Array>.every(function() { return <value_expect_boolean>})
+
+<Array>.some(function() { return <value_expect_boolean>})
+
+
+
+
+
+
