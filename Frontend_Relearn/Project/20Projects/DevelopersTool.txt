@@ -1,0 +1,5 @@
+F12 - inspect code 
+
+Git/Github - working with source
+
+ https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/guides/web-intent

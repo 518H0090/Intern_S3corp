@@ -1,0 +1,5 @@
+color-highlight
+live server
+
+https://css-tricks.com/favicons-next-to-external-links/
+https://heropatterns.com/

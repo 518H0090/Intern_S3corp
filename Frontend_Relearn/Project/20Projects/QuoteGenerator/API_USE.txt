@@ -1,0 +1,6 @@
+https://type.fit/api/quotes
+
+https://jacintodesign.github.io/quotes-api/data/quotes.json
+
+https://zenquotes.io/
+
