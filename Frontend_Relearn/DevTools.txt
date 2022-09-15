@@ -7,3 +7,6 @@ chrome page ruler extension
 chrome eye dropper extension
 
 https://materializecss.com/getting-started.html
+
+-----------------Tư duy frontend---------------------
+https://www.youtube.com/watch?v=pUDvnihGxXo
