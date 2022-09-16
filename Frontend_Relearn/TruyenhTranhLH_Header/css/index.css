@@ -1,0 +1,153 @@
+/* Base CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-orange: #df691a;
+    --bg-orange-l: ##e68748;
+    --text-white: #fff;
+    --bg-dark: #343a40;
+    --bg-blue: #5865f2;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('../img/cat-seamless-pattern-vector-kitten-smile-doodle-wallpaper-background-isolated-black-118855999.jpg');
+}
+
+/* Global CSS */
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    height: 5.6rem;
+    background-color: var(--bg-orange);
+    font-size: 1.3rem;
+    color: var(--text-white);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__item {
+    padding: 0 8px;
+    text-align: center;
+    line-height: 5.6rem;
+}
+
+.navbar__logo {
+    width: 3.4rem;
+    height: 3.4rem;
+    object-fit: cover;
+    transform: translateY(28%);
+}
+
+.navbar__brandname {
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.navbar__brandname:hover {
+    opacity: 0.7;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 1.6rem;
+}
+
+.navbar__link-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    transform: translateY(30%);
+}
+
+/* SearchBar */
+.navbar__searchbar {
+    line-height: 5.6rem;
+    text-align: center;
+    height: 3.5rem;
+    width: 229px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.navbar__search {
+    margin: auto 0;
+    flex: 1;
+    height: 100%;
+    border: none;
+    background-color: #e68748;
+    opacity: 0.8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.navbar__search-btn {
+    padding: 0 8px;
+    border: none;
+    background: #e68748;
+    opacity: 0.8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.navbar__search-icon {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    background-color: none;
+    line-height: 100%;
+}
+
+/* Header Responsive */
+@media screen and (max-width: 768px) {
+
+    .navbar__brand .navbar__brandname {
+        display: none;
+    }
+
+    .navbar__link span {
+        display: none;
+    }
+
+    .navbar__item--hide {
+        display: none;
+    }
+
+    .navbar__search-btn {
+        border: none;
+        background-color: white;
+        border-radius: 100%;
+        margin-left: 200px;
+    }
+}

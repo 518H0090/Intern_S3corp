@@ -10,7 +10,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
     color: #fff;
-    margin : 0;
+    margin: 0;
     padding: 0;
     overflow: hidden;
 }
@@ -66,7 +66,7 @@ body {
 .btn:hover,
 .btn-dark {
     background: #333;
-    color : #fff;
+    color: #fff;
 }
 
 .btn-dark:hover {
