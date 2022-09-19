@@ -57,7 +57,27 @@ font-size : rem then margin or padding : em.
 https://scrimba.com/learn/responsive
 
 -----------------------------------------------------------------------------
+https://viblo.asia/p/bai-28-hieu-chinh-xac-ve-responsive-web-design-va-cach-chia-khoang-man-hinh-ORNZqb0Ml0n
+https://homiedev.com/responsive-css-tips/
 
+-----------------------------------------------------------------
+
+max-width: 320px (điện thoại di động, hiển thị chiều dọc)
+max-width: 480px (điện thoại di động, hiển thị chiều ngang)
+max-width: 600px (máy tính bảng, hiển thị chiều dọc)
+max-width: 800px (máy tính bảng, hiển thị chiều ngang)
+max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)
+max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang)
+min-width: 1025px (từ size này trở lên là danh cho desktop thông thường).
+
+-------------------------------------------------------------
+
+3.4. Một số điều cần biết khi viết responsive
+Viết css responsive không khó, tuy nhiên các bạn cũng nên chú ý một số điều sau:
+
+Ngoài đơn vị của breakpoint là px, thì các đơn vị đo chiều dài trong website nên là %. Hay nói đúng hơn là sử dụng đơn vị tương đối.
+Nên sử dụng max-width thay vì width để tránh cố định chiều rộng.
+Sử dụng display: none cho các thành phần cần ẩn đi ở từng thiết bị mà bạn muốn ẩn. Và display: block ở các thiết bị cần hiển thị ra.
 
 
 
