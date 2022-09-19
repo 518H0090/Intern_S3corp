@@ -1,0 +1,33 @@
+/* ======================================================== */
+/* Header */
+.header {
+    height: 7rem;
+    background-color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbarlogo,
+.navbar .navlanguage {
+    flex: 1;
+}
+
+.navbar .navmain {
+    flex: 2;
+}
+
+/* ======================================================== */
+
+/* ======================================================== */
+
+/* ======================================================== */

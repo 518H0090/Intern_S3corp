@@ -21,6 +21,8 @@
     --color-green: #239839;
     --color-red: #cf2127;
     --color-silver: #c2c2c2;
+    --bg-color: #f2f2f2;
+    --text-black: #464646;
 }
 
 html {
@@ -29,4 +31,18 @@ html {
     line-height: 1.6;
     font-weight: 400;
     scroll-behavior: smooth;
+    color: var(--text-black);
 }
+
+body {
+    background: var(--bg-color);
+}
+
+/* Re-Use */
+.container {
+    margin: auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+/* Animation */

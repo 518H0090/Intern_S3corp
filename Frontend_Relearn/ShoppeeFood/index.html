@@ -20,83 +20,71 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Full APP -->
     <div class="app">
       <!-- Header -->
       <header class="header">
-        <!-- Header Container -->
-        <div class="header__container">
+        <nav class="navbar">
           <!-- Logo -->
-          <div class="logo">
-            <a href="#" class="logo__link">
+          <div class="navbarlogo">
+            <a href="#" class="navbarlogo__link">
               <img
                 src="./img/shopeefoodvn_logo.png"
                 alt=""
-                class="logo__image"
+                class="navbarlogo__img"
               />
             </a>
           </div>
 
-          <!-- Navbar -->
-          <nav class="navbar">
-            <!-- Dropdown Menu -->
-            <div class="dropdownmenu">
-              <div class="dropitem">
-                <span class="dropitem__name">TP.HCM</span>
-                <span class="dropitem__amountlocation">86256 địa điểm</span>
+          <!-- Container -->
+          <div class="container">
+            <!-- Navbar Main -->
+            <div class="navmain">
+              <!-- NavMain Item -->
+              <div class="navmain__item">
+                <div class="dropdownmenu">TP.HCM</div>
+                <ul class="navbar__list">
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Đồ ăn</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Thực phẩm</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Bia</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Hoa</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Siêu thị</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Thuốc</a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="" class="navbar__item-link">Thú cưng</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- NavMain Item -->
+              <div class="navmain__item">
+                <div class="navbtn">
+                  <span class="navbtn__search">Search</span>
+                </div>
+
+                <div class="navbtn">
+                  <button class="navbtn__login">Đăng nhập</button>
+                </div>
               </div>
             </div>
+          </div>
 
-            <!-- Navigation -->
-            <div class="navigation">
-              <ul class="navigation__list">
-                <div class="navigation__item">
-                  <a href="">Đồ ăn</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Thực phẩm</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Bia</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Hoa</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Siêu thị</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Thuốc</a>
-                </div>
-                <div class="navigation__item">
-                  <a href="">Thú cưng</a>
-                </div>
-              </ul>
-            </div>
-
-            <!-- Controls -->
-           <div class="controls">
-                <!-- Search options -->
-                <div class="search">
-                    <span class="search__icon">Search</span>
-                </div>
-                <!-- Button  -->
-                <div class="buttonaction">
-                    <button type="button" class="buttonaction__login">Đăng nhập</button>
-                </div>
-           </div>
-
-           <!-- Dropdown Language -->
-           <div class="dropdownlanguage">
-               <div class="droptoggle">
-                    <span class="droptoggle__icon">VN</span>
-               </div>
-               <div class="dropmenu">
-                    <span class="dropmenu__icon">VN</span>
-                    <span class="dropmenu__name">Việt Nam</span>
-               </div>
-           </div>
-        </div>
+          <!-- Navbar Switch language -->
+          <div class="navlanguage">
+            <div class="navlanguage__dropdown">VN</div>
+          </div>
+        </nav>
       </header>
     </div>
   </body>
