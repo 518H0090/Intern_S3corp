@@ -1,0 +1,32 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;700&display=swap');
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base CSS */
+
+:root {
+    --color-white: #ffffff;
+    --color-orange: #ee4d2d;
+    --color-black: #000;
+    --color-blue: #0288d1;
+    --color-blue-l: #51b8ef;
+    --color-green: #239839;
+    --color-red: #cf2127;
+    --color-silver: #c2c2c2;
+}
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}

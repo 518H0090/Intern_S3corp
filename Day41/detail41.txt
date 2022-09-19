@@ -1,7 +1,6 @@
 +Huỳnh Trần Trung Hiếu - 19/09/2022
 + Completed Task: 
   - Prepare for Final Project.
-  - Research Ideas for Responsive Rules.
 
 + Current Tasks:  
   - Visualize ShoppeeFood.
@@ -11,7 +10,7 @@
 + Issue: None.
 
 Report 19/09/2022
-- https://docs.google.com/document/d/15qTO0fUg40PgeracPWPhL4Qmys5SZJsw3Y-0bptWl9M/edit
+- https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0
 
 Demo 19/09/2022
 - None.

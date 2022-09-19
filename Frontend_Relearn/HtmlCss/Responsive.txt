@@ -59,6 +59,8 @@ https://scrimba.com/learn/responsive
 -----------------------------------------------------------------------------
 https://viblo.asia/p/bai-28-hieu-chinh-xac-ve-responsive-web-design-va-cach-chia-khoang-man-hinh-ORNZqb0Ml0n
 https://homiedev.com/responsive-css-tips/
+https://hanoiict.edu.vn/cach-thiet-ke-responsive-chi-trong-1-dong-css
+https://viblo.asia/p/responsive-website-cung-3-buoc-don-gian-WAyK8679lxX
 
 -----------------------------------------------------------------
 
