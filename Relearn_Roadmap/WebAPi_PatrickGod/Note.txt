@@ -1,0 +1,43 @@
+--------------------------------------------------
+[JsonConverter(typeof(JsonStringEnumConverter))]
+
+----------------------------------------------------
+AutoMapper
+
+https://bizverse.udemy.com/course/net-core-31-web-api-entity-framework-core-jumpstart/learn/lecture/32826056#overview
+
+-----------------------------------------------
+[AllowAnonymous]
+
+--------------------------------------------------
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer("Bearer", options =>
+    {
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ClockSkew = TimeSpan.Zero,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(JwtTokenHelpers.secretKey)),
+            ValidateIssuerSigningKey = true,
+            ValidateAudience = false,
+            ValidateIssuer = false,
+            RequireSignedTokens = true
+        };
+    });
+
+public string GenerateRefreshToken()
+        {
+            var byteArrays = new byte[64];
+            using(var randomGenerator = RandomNumberGenerator.Create())
+            {
+                randomGenerator.GetBytes(byteArrays);
+
+                var refreshToken = Convert.ToBase64String(byteArrays);
+
+                return refreshToken;
+            }
+        }
+
+
+
+

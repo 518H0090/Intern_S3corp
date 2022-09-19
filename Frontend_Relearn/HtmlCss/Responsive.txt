@@ -1,0 +1,32 @@
+https://www.youtube.com/watch?v=srvUrASNj0s&t=1961s
+47:03 / 4:11:03
+
+•
+10. ems and rems - an example
+
+--------------------------------------
+use %, rem, em
+font-size = rem
+padding and margin = em
+widths = em or %
+
+------------------------------------------------
+https://viblo.asia/p/em-rem-trong-css-naQZRGjPlvx
+
+em is relative to the font-size of parent element or itsefs 
+rem is relative to the font-size of root element (html)
+
+-----------------------------------------
+block elements
+div,header,footer,main, etc
+h1->h6
+p
+
+inline elements 
+a, strong, em , span
+
+
+
+
+
+

@@ -15,6 +15,27 @@ https://www.diffchecker.com/
 
 <Array>.some(function() { return <value_expect_boolean>})
 
+<Array>.reduce(fuction(strorevalue, current value) {
+	return <actualvalue>
+}, <initialvalue>)
+
+(
+	function() {}
+)();
+
+----------------------------------------------------
+`${value}` - template strings
+
+-----------------------------------------------------
+
+() => {} - arrow function
+
+----------------------------------------------------
+
+...<Array/Object> - speard and rest 
+
+-----------------------------------------------
+
 
 
 
