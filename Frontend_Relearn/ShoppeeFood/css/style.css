@@ -1,29 +1,115 @@
 /* ======================================================== */
 /* Header */
 .header {
-    height: 7rem;
-    background-color: var(--color-white);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
+  height: 7rem;
+  background-color: var(--color-white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
 }
 
 /* Navbar */
 .navbar {
-    display: flex;
-    align-items: center;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
-.navbar .navbarlogo,
-.navbar .navlanguage {
-    flex: 1;
+/* Navbar logo */
+.navbar .navbar-logo__link {
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.navbar .navmain {
-    flex: 2;
+.navbar .navbar-logo__image {
+  height: 3rem;
+}
+
+/* Navbar Dropdown */
+.navbar-dropdown {
+  cursor: pointer;
+}
+
+.navbar .navbar-dropdown__toggle {
+  height: 4.1rem;
+  min-width: 10rem;
+  background-color: var(--color-silver);
+  display: flex;
+}
+
+.navbar .navbar-dropdown__toggle-name {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-dropdown > .navbar-dropdown__menu {
+  display: none;
+}
+
+/* Navigation */
+.navbar-navigation {
+}
+
+.navbar .navbar__list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .navbar__list-item {
+  padding: 14px 8px;
+}
+
+.navbar .navbar__list-item--active {
+  border-bottom: 0.4em solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.navbar .navbar__list-item--active .navbar__item-link {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
+.navbar .navbar__item-link {
+  text-decoration: none;
+  color: var(--text-black);
+  font-size: 1.5rem;
+}
+
+/* Navbar Search */
+.navbar-search {
+}
+
+.navbar .navbar-search__btn {
+  padding: 0.4em 2.6em;
+  transform: translateX(100%);
+}
+
+.navbar .navbar-search__icon {
+  font-size: 2.4em;
+}
+
+/* Navbar Login */
+.navbar-login {
+}
+
+.navbar .navbar-login {
+}
+
+/*  Dropdown Switch Language  */
+.dropdown-switch {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+}
+
+.header .dropdown-switch__menu {
+  display: none;
 }
 
 /* ======================================================== */
