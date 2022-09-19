@@ -1,14 +1,14 @@
 https://www.youtube.com/watch?v=srvUrASNj0s&t=1961s
-47:03 / 4:11:03
-
-•
-10. ems and rems - an example
-
+2:17:49 / 4:11:03
 --------------------------------------
 use %, rem, em
 font-size = rem
 padding and margin = em
 widths = em or %
+
+Use Flex to Change display
+display : flex;
+flex-direction : row/column;
 
 ------------------------------------------------
 https://viblo.asia/p/em-rem-trong-css-naQZRGjPlvx
@@ -24,6 +24,39 @@ p
 
 inline elements 
 a, strong, em , span
+
+-----------------------------------------------------------------------
+
+@media media-type and (media-features) {  }
+
+media-type
+ 
+-screen
+-print
+-speech
+
+media-features
+- widths : (max-width / min-width : value)
+- orientation (orientation : landscape, portrait, ...)
+- specific : (hover,...)
+
+
+-------------------------------------------------------------------------------
+Example for apply rules
+
+display : flex;
+flex-direction : row/column;
+justify-content
+align-items
+
+width: %
+
+font-size : rem then margin or padding : em.
+
+-------------------------------------------------------------------------
+https://scrimba.com/learn/responsive
+
+-----------------------------------------------------------------------------
 
 
 
