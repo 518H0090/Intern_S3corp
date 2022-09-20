@@ -5,11 +5,12 @@
   - Add Dropdown Menu Location
   - Add SearchBar Modal
   - Add Switch Language Dropdown.
+  - Use Javascript Solve Event For Header.
 
 + Current Tasks:  
-  - Use Javascript Solve Event For Header.
+  - Estimate Task For Final Project.
           
-+ Next Task: Build Project. 
++ Next Task: Continue Build Project. 
 + Issue: None.
 
 Report 20/09/2022
