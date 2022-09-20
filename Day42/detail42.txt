@@ -1,0 +1,30 @@
++Huỳnh Trần Trung Hiếu - 20/09/2022
++ Completed Task: 
+  - Build Overall Header
+  - Add Active Navigate
+  - Add Dropdown Menu Location
+  - Add SearchBar Modal
+  - Add Switch Language Dropdown
+
++ Current Tasks:  
+  - Use Javascript Solve Event For Header.
+          
++ Next Task: Build Project. 
++ Issue: None.
+
+Report 20/09/2022
+- https://docs.google.com/spreadsheets/d/1iQXCJislFA_itoJKJ0-YkfBy_lfxgd_oLE0VDKg6CI4/edit#gid=0
+
+Demo 20/09/2022
+- None.
+
+References 20/09/2022
+- None
+
+link fill performance for work
+
+https://docs.google.com/spreadsheets/d/1FswF__hVviGR7COoSAz6Zb6hfycABNM08C8Gmc1ZmWQ/edit#gid=552608413
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0
