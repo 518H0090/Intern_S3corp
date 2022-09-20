@@ -30,6 +30,7 @@
   --all-element-behavior: all 0.8s ease-in;
   --color-botom-modal-search: #6d6f71;
   --text-color-footer: #252525;
+  --color-violet: #bc36a9;
 }
 
 html {
@@ -43,6 +44,13 @@ html {
 
 body {
   background: var(--bg-color);
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Re-Use */
@@ -62,11 +70,16 @@ body {
   transform: translateY(-50%);
 }
 
+.icon + .icon {
+  margin: 3.5em 0;
+}
+
 .icon .icon__appstore,
 .icon .icon__googleplay,
 .icon .icon__appstore {
   width: 12.2em;
   height: 4em;
+  cursor: pointer;
 }
 
 .btn {
@@ -83,6 +96,11 @@ body {
   background-color: #fff;
   border-color: #ee4d2d;
   color: #ee4d2d;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+  filter: brightness(120%);
 }
 
 /* Animation */
