@@ -29,6 +29,7 @@
   --btn-color-default: #e5e4e5;
   --all-element-behavior: all 0.8s ease-in;
   --color-botom-modal-search: #6d6f71;
+  --text-color-footer: #252525;
 }
 
 html {
@@ -59,6 +60,13 @@ body {
 
 .icon .icon-down {
   transform: translateY(-50%);
+}
+
+.icon .icon__appstore,
+.icon .icon__googleplay,
+.icon .icon__appstore {
+  width: 12.2em;
+  height: 4em;
 }
 
 .btn {

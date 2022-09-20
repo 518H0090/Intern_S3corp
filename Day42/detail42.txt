@@ -1,14 +1,19 @@
 +Huỳnh Trần Trung Hiếu - 20/09/2022
 + Completed Task: 
-  - Build Overall Header
-  - Add Active Navigate
-  - Add Dropdown Menu Location
-  - Add SearchBar Modal
-  - Add Switch Language Dropdown.
+  - Visualize Website.
+  - Prepare Tools.
+  - Build Overall Header.
+  - Add Active Navigate UI.
+  - Add Dropdown Menu Location UI.
+  - Add SearchBar Modal UI.
+  - Add Switch Language Dropdown UI.
   - Use Javascript Solve Event For Header.
+  - Build Constructure HTML For Main Layout(Not Include CSS).
+  - Build Constructure HTML For Footer.
 
 + Current Tasks:  
-  - Estimate Task For Final Project.
+  - Re-Estimate Task For Final Project.
+  - Add CSS Style For Footer.
           
 + Next Task: Continue Build Project. 
 + Issue: None.
