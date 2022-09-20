@@ -4,7 +4,7 @@
   - Add Active Navigate
   - Add Dropdown Menu Location
   - Add SearchBar Modal
-  - Add Switch Language Dropdown
+  - Add Switch Language Dropdown.
 
 + Current Tasks:  
   - Use Javascript Solve Event For Header.

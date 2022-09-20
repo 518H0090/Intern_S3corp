@@ -15,6 +15,7 @@
 :root {
   --color-white: #ffffff;
   --color-orange: #ee4d2d;
+  --color-orange-l: rgba(238, 77, 45, 0.2);
   --color-black: #000;
   --color-black-bl: rgba(0, 0, 0, 0.8);
   --color-black-l: rgba(0, 0, 0, 0.3);
