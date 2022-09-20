@@ -44,7 +44,7 @@
 
 .navbar .navbar-dropdown__toggle {
   height: 4.1rem;
-  min-width: 10rem;
+  min-width: 10em;
   background-color: var(--color-silver);
   display: flex;
 }
@@ -56,7 +56,7 @@
 
 .navbar .navbar-dropdown__menu {
   background-color: var(--color-white);
-  border-radius: 0.02rem;
+  border-radius: 0.3em;
   box-shadow: 0.01em 0.01em 0.3em var(--text-black);
   position: absolute;
   top: 100%;
@@ -85,17 +85,17 @@
 }
 
 /* Hide */
-.navbar .navbar-dropdown__menu {
+.navbar-dropdown .navbar-dropdown__menu {
   display: none;
 }
 
 /* Show */
-.navbar .navbar-dropdown__menu.show {
+.navbar-dropdown .navbar-dropdown__menu.show {
   display: block;
 }
 
 /* Hover */
-.navbar:hover .navbar-dropdown__menu {
+.navbar-dropdown:hover .navbar-dropdown__menu {
   display: block;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .navbar .navbar__list-item {
-  padding: 14px 8px;
+  padding: 14px 10px;
 }
 
 .navbar .navbar__list-item--active {
@@ -165,3 +165,37 @@
 /* ======================================================== */
 
 /* ======================================================== */
+/* Modals */
+
+/* Navbar Search Modal */
+.modal-navbarsearch {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  /* display: none; */
+}
+
+.modal-navbarsearch.show {
+  display: block;
+}
+
+.modal-navbarsearch > .modal-navbarsearch__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black-bl);
+}
+
+.modal-navbarsearch > .modal-navbarsearch__body {
+  height: 300px;
+  width: 1100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 6;
+}
