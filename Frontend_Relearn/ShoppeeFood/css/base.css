@@ -26,6 +26,8 @@
   --bg-color: #f2f2f2;
   --text-black: #464646;
   --btn-color-default: #e5e4e5;
+  --all-element-behavior: all 0.8s ease-in;
+  --color-botom-modal-search: #6d6f71;
 }
 
 html {
