@@ -3,11 +3,9 @@
   - Visualize Website.
   - Prepare Tools.
   - Build Overall Header.
-  - Add Active Navigate UI.
   - Add Dropdown Menu Location UI.
   - Add SearchBar Modal UI.
   - Add Switch Language Dropdown UI.
-  - Use Javascript Solve Event For Header.
   - Build Constructure HTML For Main Layout(Not Include CSS).
   - Build Constructure HTML For Footer.
 
@@ -19,7 +17,7 @@
 + Issue: None.
 
 Report 20/09/2022
-- https://docs.google.com/spreadsheets/d/1iQXCJislFA_itoJKJ0-YkfBy_lfxgd_oLE0VDKg6CI4/edit#gid=0
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
 
 Demo 20/09/2022
 - None.
