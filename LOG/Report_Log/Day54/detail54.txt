@@ -1,0 +1,25 @@
++Huỳnh Trần Trung Hiếu - 06/10/2022
++ Completed Task: 
+  - Category Repository, Serive and Controller.
+  - Add Relation Between Category and Restaurant.
+  - Make HttpGet For Enum (Role and Promotion).
+
++ Current Tasks:    
+  - Seed data For Every Table(Restaurant, User, Category and Food).   
+  - Build Crud for Food.
+          
++ Next Task: Continue Build Project. 
++ Issue: none.
+
+Estimate 06/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 06/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 06/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

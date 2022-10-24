@@ -1,0 +1,23 @@
++Huỳnh Trần Trung Hiếu - 11/10/2022
++ Completed Task: 
+  - Research Fetch Data.
+  - Seed data For User, Restaurant, Category.
+
++ Current Tasks:    
+  - Seed data for Food and CategoryFood.   
+          
++ Next Task: Fetch Data In Layout. 
++ Issue: none.
+
+Estimate 11/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 11/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 11/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

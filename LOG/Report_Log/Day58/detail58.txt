@@ -1,0 +1,24 @@
++Huỳnh Trần Trung Hiếu - 12/10/2022
++ Completed Task: 
+  - Seed Data For Every Table.
+  - Fix several for ui and crud. 
+  - Fetch Data And Check In Console Log.
+
++ Current Tasks:    
+  - Fetch Data In Layout.   
+          
++ Next Task: Process Login and Register. 
++ Issue: none.
+
+Estimate 12/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 12/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 12/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

@@ -1,0 +1,46 @@
+User
+Username - string
+Password - string
+UserRole - string
+
+Restaurant
+RsImageUrl - string
+RsProvince - string
+RsTitle - string
+RsAddress - string
+RsType - string
+RsStar - float (Range 1-5 )
+RsReviews - int
+RsOpenTime - string
+RsPriceRange - string
+RsRefeLike - bool
+RsPromotion - Promotion
+
+Category
+CategoryName - string
+CategoryTag - string
+
+Food
+Category
+Restaurant
+
+FoodImageUrl - string
+FoodTitle - string
+FoodDesc - string
+FoodPrice - int
+FoodPricesLess - float 
+
+Restaurant - Food 1-many
+
+Category - Food many many
+
+
+Every Table Id is Id
+
+
+
+
+
+
+
+

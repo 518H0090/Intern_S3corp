@@ -1,0 +1,25 @@
++Huỳnh Trần Trung Hiếu - 07/10/2022
++ Completed Task: 
+  - Build Relation Category and Food (many - many), Restaurant and Food (one - many).  
+  - Add HttpGet For Get All Restaurant Inclue Food, Tag (just check their relation).
+  - Finish Controller, Service and Repository For Food.
+
++ Current Tasks:    
+  - Seed data For Every Table(Restaurant, User, Category ,Food and CategoryFood).   
+  - Build Crud for CategoryFood.
+          
++ Next Task: Research Identity In C# For Use JwtToken With Frontend. 
++ Issue: none.
+
+Estimate 07/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 07/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 07/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

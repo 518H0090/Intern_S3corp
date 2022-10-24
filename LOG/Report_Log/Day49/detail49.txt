@@ -1,0 +1,22 @@
++Huỳnh Trần Trung Hiếu - 29/09/2022
++ Completed Task: 
+  - Make Banner Menu ScrollBar Event. 
+
++ Current Tasks:  
+  - Build Banner Menu Detail Item.
+          
++ Next Task: Continue Build Project. 
++ Issue: Banner Menu ScrollBar Work But It has small error when refresh page.
+
+Estimate 29/09/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 29/09/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 29/09/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

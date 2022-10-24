@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Fresh | Đi chợ Online | Thực phẩm ngon - Giao nhanh TP. HCM |
+    shopeefood.vn
+  </title>
+  <meta name="author" content="Trung Hiếu" />
+  <meta name="keywords" content="HTML,CSS,JS,DotNet,Sql" />
+  <meta name="description" content="Build Simple website" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/shopeefood_favicon.jpg" type="image/x-icon" />
+  <!-- FontAweSome -->
+  <script src="https://kit.fontawesome.com/85dd07e8e0.js" crossorigin="anonymous"></script>
+  <!-- Base CSS -->
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/detailfood.css">
+</head>
+
+<body>
+  <!-- Full app -->
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <!-- Container -->
+      <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <!-- Logo -->
+          <div class="navbar-logo">
+            <a href="#" class="navbar-logo__link">
+              <img src="./img/shopeefoodvn_logo.png" alt="" class="navbar-logo__image" />
+            </a>
+          </div>
+          <!-- Dropdown  -->
+          <div class="navbar-dropdown">
+            <!-- Dropdown Toggle -->
+            <div class="navbar-dropdown__toggle">
+              <span class="navbar-dropdown__toggle-name">TP.HCM
+                <i class="fa-solid fa-caret-down"></i>
+              </span>
+            </div>
+            <!-- Dropdown Menu -->
+            <div class="navbar-dropdown__menu">
+              <!-- Dropdown Item -->
+              <div class="navbar-dropdown__item">
+                <div class="navbar-dropdown__item-name">TP.HCM</div>
+                <div class="navbar-dropdown__item-count">86256 địa điểm</div>
+              </div>
+
+              <!-- Dropdown Item -->
+              <div class="navbar-dropdown__item">
+                <span class="navbar-dropdown__item-name">Hà Nội</span>
+                <span class="navbar-dropdown__item-count">42231 địa điểm</span>
+              </div>
+
+              <!-- Dropdown Item -->
+              <div class="navbar-dropdown__item">
+                <span class="navbar-dropdown__item-name">Đà Nẵng</span>
+                <span class="navbar-dropdown__item-count">11920 địa điểm</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="navbar-navigation">
+            <!-- Navbar List -->
+            <ul class="navbar__list">
+              <!-- Navbar item -->
+              <li class="navbar__list-item navbar__list-item--active">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Đồ ăn</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Thực phẩm</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Bia</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Hoa</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Siêu thị</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Thuốc</a>
+              </li>
+
+              <!-- Navbar item -->
+              <li class="navbar__list-item">
+                <!-- Navbar Item Anchor -->
+                <a href="" class="navbar__item-link">Thú cưng</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Search -->
+          <div class="navbar-search">
+            <div class="navbar-search__btn">
+              <i class="fa-solid fa-magnifying-glass navbar-search__icon"></i>
+            </div>
+          </div>
+
+          <!-- User Login -->
+          <div class="navbar-login">
+            <button type="button" class="btn btn-login">Đăng nhập</button>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Dropdown Switch Language -->
+      <div class="dropdown-switch">
+        <!-- Dropdown Toggle -->
+        <div class="dropdown-switch__toggle">
+          <span class="icon">
+            <img src="./img/vietnameflag_icon.webp" alt="" class="icon-select" />
+            <i class="fa-solid fa-caret-down icon-down"></i>
+          </span>
+        </div>
+        <!-- Dropdown Menu -->
+        <div class="dropdown-switch__menu">
+          <!-- Dropdown Item -->
+          <div class="dropdown-switch__item">
+            <span class="dropdown__item-flag">
+              <span class="icon">
+                <img src="./img/americanflag_icon.webp" alt="" class="icon-select" />
+              </span>
+            </span>
+            <span class="dropdown__item-flag-name"> Tiếng Anh </span>
+          </div>
+
+          <!-- Dropdown Item -->
+          <div class="dropdown-switch__item">
+            <span class="dropdown__item-flag">
+              <span class="icon">
+                <img src="./img/vietnameflag_icon.webp" alt="" class="icon-select" />
+              </span>
+            </span>
+            <span class="dropdown__item-flag-name"> Tiếng Việt</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Layout -->
+    <main class="layout">
+
+      <!-- Food Detail -->
+      <section class="layout-fooddetail">
+
+        <!-- Container -->
+        <div class="container fooddetail__container">
+          <!-- Food Detail Image -->
+          <div class="fooddetail__image">
+            <img src="./img/foody-upload-api-foody-mobile-foody-upload-api-foo-190822151330.jpg" alt=""
+              class="fooddetail__img">
+          </div>
+
+          <!-- Food Detail Information -->
+          <div class="fooddetail__info">
+            <!-- Breadcrumb -->
+            <ul class="fooddetail__breadcrumb-list">
+              <li class="fooddetail__breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+
+              <li class="fooddetail__breadcrumb-item">
+                <i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i>
+              </li>
+
+              <li class="fooddetail__breadcrumb-item">
+                <a href="#">TP.HCM</a>
+              </li>
+
+              <li class="fooddetail__breadcrumb-item">
+                <i class="fa-sharp fa-solid fa-arrow-right-to-bracket"></i>
+              </li>
+
+              <li class="fooddetail__breadcrumb-item">
+                <a href="#">TocoToco Bubble Tea - Phổ Quang</a>
+              </li>
+            </ul>
+
+            <!-- Type Shop -->
+            <div class="fooddetail__kind">
+              <!-- Preference Type -->
+              <div class="fooddetail__type-pref">
+                <i class="fa-solid fa-thumbs-up fooddetail__type-pref-icon"></i>
+                <p class="fooddetail__type-pref-paragraph">Yêu thích</p>
+              </div>
+
+              <!-- Name Type -->
+              <div class="fooddetail__type-name">
+                <p> CAFÉ/DESSERT</p>
+              </div>
+            </div>
+
+            <!-- Shop  Name -->
+            <h3 class="fooddetail__shopname">TocoToco Bubble Tea - Phổ Quang</h3>
+
+            <!-- Shop Address -->
+            <p class="fooddetail__address">157 - 159 Nguyễn Thái Học, P.Phạm Ngũ Lão, Quận 1, TP.HCM</p>
+
+            <!-- Shop Rating -->
+            <div class="fooddetail__rating">
+              <!-- Rating Stars -->
+              <div class="fooddetail__rating-stars">
+                <div class="full-star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="full-star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="full-star">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="half-star">
+                  <i class="fa-sharp fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="none-star">
+                  <i class="fa-regular fa-star"></i>
+                </div>
+              </div>
+
+              <!-- Number Review -->
+              <p class="fooddetail__rating-countreview">
+                999+
+              </p>
+
+              <!-- Description -->
+              <p class="fooddetail__rating-desc">đánh giá từ trên ShopeeFood</p>
+
+              <!-- View More Rating -->
+              <div class="fooddetail__morerating">
+                <a href="#" class="fooddetail__morerating-link">Xem thêm lượt đánh giá từ Foody</a>
+              </div>
+
+            </div>
+
+            <!-- Shop Status -->
+            <div class="fooddetail__status">
+              <!-- Status Open -->
+              <div class="fooddetail__status-open" title="Mở cửa">
+                <i class="fa-solid fa-circle"></i>
+                <span>Mở cửa</span>
+              </div>
+
+              <!-- Time Work -->
+              <div class="fooddetail__status-work">
+                <i class="fa-solid fa-clock"></i>
+                <span>07:00 - 22:15</span>
+              </div>
+            </div>
+
+            <!-- Shop Cost -->
+            <div class="fooddetail__cost">
+              <i class="fa-solid fa-money-check-dollar"></i>
+              <span>30,000 - 80,000</span>
+            </div>
+
+            <!-- Underline -->
+            <hr class="fooddetail__underline">
+
+            <!-- Utility -->
+            <div class="fooddetail__utility">
+              <!-- Utility Item -->
+              <div class="fooddetail__utility-item">
+                <!-- Title -->
+                <h3 class="fooddetail__utility-title">phí dịch vụ</h3>
+                <!-- Content -->
+                <p class="fooddetail__utility-content">0.0% Phí phục vụ</p>
+
+                <!-- Utility Partner -->
+                <div class="fooddetail__utility-partner">
+                  <a href="#" class="fooddetail__utility-partner-link">
+                    <i class="fa-sharp fa-solid fa-shield"></i>
+                    <span>Quán Đối Tác</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Utility Item -->
+              <div class="fooddetail__utility-item">
+                <!-- Title -->
+                <h3 class="fooddetail__utility-title">dịch vụ bởi</h3>
+                <!-- Content -->
+                <p class="fooddetail__utility-content">ShopeeFood</p>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- Food Relative Options  -->
+      <section class="layout-foodoptions">
+        <!-- Container -->
+        <div class="container foodoptions__container">
+          <!-- Food Options Title -->
+          <h3 class="foodoptions__title">thực đơn</h3>
+
+          <!-- Food Options Relative -->
+          <div class="foodoptions__relative">
+            <!-- Category -->
+            <div class="foodoptions__category">
+              <!-- Category List -->
+              <ul class="foodoptions__list">
+                <!-- Category Item -->
+                <li class="foodoptions__item foodoptions__item--select">
+                  <span>trà sủi bọt giải khát</span>
+                </li>
+
+                <!-- Category Item -->
+                <li class="foodoptions__item">
+                  <span>cà phê tỉnh táo</span>
+                </li>
+
+                <!-- Category Item -->
+                <li class="foodoptions__item">
+                  <span>trà sữa đậm đà</span>
+                </li>
+
+                <!-- Category Item -->
+                <li class="foodoptions__item">
+                  <span>special tea kiosk</span>
+                </li>
+
+                <!-- Category Item -->
+                <li class="foodoptions__item">
+                  <span>tea & coffee</span>
+                </li>
+
+              </ul>
+            </div>
+
+            <!-- Detail -->
+            <div class="foodoptions__detail">
+              <!-- Detail Promotion -->
+              <div class="foodoptions__detail-promotion">
+                <!-- Icon -->
+                <img src="./img/shopeefood_voucher_14.png" alt="" class="foodoptions__promotion-icon">
+                <p class="foodoptions__detail-content">Giảm giá một số món ăn trên menu</p>
+              </div>
+
+              <!-- Detail Menu List -->
+              <div class="foodoptions__detail-menulist">
+                <!-- Title -->
+                <div class="foodoptions__menulist-title">
+                  <span>menu</span>
+                </div>
+
+                <!-- List Food  -->
+                <div class="foodoptions__menulist-foodlist">
+                  <!-- Item -->
+                  <div class="foodoptions__menulist-item">
+                    <!-- Image -->
+                    <div class="foodoptions__menuitem-image">
+                      <img src="./img/7493daa4-f432-4ad8-9cc1-c6ca4b38-9888484e-220428114251.jpeg" alt=""
+                        class="foodoptions__menuitem-img">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="foodoptions__menuitem-content">
+                      <h4 class="foodoptions__menuitem-title">Trà dưa dưới Hoàng kim</h4>
+                      <p class="foodoptions__menuitem-subtitle">Dưa lưới đậm đà thơm ngát</p>
+                    </div>
+
+                    <!-- More -->
+                    <div class="foodoptions__menuitem-more">
+                      <p class="foodoptions__menuitem-cost">
+                        25,000 <sup>đ</sup>
+                      </p>
+
+                      <button type="button" class="foodoptions__menuitem-btn">
+                        <i class="fa-solid fa-plus foodoptions__menuitem-icon"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                  <!-- Item -->
+                  <div class="foodoptions__menulist-item">
+                    <!-- Image -->
+                    <div class="foodoptions__menuitem-image">
+                      <img src="./img/7493daa4-f432-4ad8-9cc1-c6ca4b38-9888484e-220428114251.jpeg" alt=""
+                        class="foodoptions__menuitem-img">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="foodoptions__menuitem-content">
+                      <h4 class="foodoptions__menuitem-title">Trà dưa dưới Hoàng kim</h4>
+                      <p class="foodoptions__menuitem-subtitle">Dưa lưới đậm đà thơm ngát</p>
+                    </div>
+
+                    <!-- More -->
+                    <div class="foodoptions__menuitem-more">
+                      <p class="foodoptions__menuitem-cost">
+                        25,000 <sup>đ</sup>
+                      </p>
+
+                      <button type="button" class="foodoptions__menuitem-btn">
+                        <i class="fa-solid fa-plus foodoptions__menuitem-icon"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                  <!-- Item -->
+                  <div class="foodoptions__menulist-item">
+                    <!-- Image -->
+                    <div class="foodoptions__menuitem-image">
+                      <img src="./img/7493daa4-f432-4ad8-9cc1-c6ca4b38-9888484e-220428114251.jpeg" alt=""
+                        class="foodoptions__menuitem-img">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="foodoptions__menuitem-content">
+                      <h4 class="foodoptions__menuitem-title">Trà dưa dưới Hoàng kim</h4>
+                      <p class="foodoptions__menuitem-subtitle">Dưa lưới đậm đà thơm ngát</p>
+                    </div>
+
+                    <!-- More -->
+                    <div class="foodoptions__menuitem-more">
+                      <p class="foodoptions__menuitem-cost">
+                        25,000 <sup>đ</sup>
+                      </p>
+
+                      <button type="button" class="foodoptions__menuitem-btn">
+                        <i class="fa-solid fa-plus foodoptions__menuitem-icon"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                  <!-- Item -->
+                  <div class="foodoptions__menulist-item">
+                    <!-- Image -->
+                    <div class="foodoptions__menuitem-image">
+                      <img src="./img/7493daa4-f432-4ad8-9cc1-c6ca4b38-9888484e-220428114251.jpeg" alt=""
+                        class="foodoptions__menuitem-img">
+                    </div>
+
+                    <!-- Content -->
+                    <div class="foodoptions__menuitem-content">
+                      <h4 class="foodoptions__menuitem-title">Trà dưa dưới Hoàng kim</h4>
+                      <p class="foodoptions__menuitem-subtitle">Dưa lưới đậm đà thơm ngát</p>
+                    </div>
+
+                    <!-- More -->
+                    <div class="foodoptions__menuitem-more">
+                      <p class="foodoptions__menuitem-cost">
+                        25,000 <sup>đ</sup>
+                      </p>
+
+                      <button type="button" class="foodoptions__menuitem-btn">
+                        <i class="fa-solid fa-plus foodoptions__menuitem-icon"></i>
+                      </button>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Qr -->
+            <div class="foodoptions__Qr">
+              <img src="./img/QR.png" alt="" class="foodoptions__Qr-img">
+              <p class="foodoptions__Qr-paragraph">Quét mã để đặt món <br> trên app Shopee </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Hr -->
+    <hr />
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Container -->
+      <div class="container footer-container">
+        <!-- Block Footer -->
+        <div class="footer-block">
+          <!-- Block Title -->
+          <p class="footer-block__title">Công ty</p>
+          <!-- Block List -->
+          <ul class="footer-block__list">
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Giới Thiệu</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Trung tâm Trợ giúp</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Quy chế</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Điều khoản sử dụng</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Bảo mật thông tin</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Giải quyết khiếu nại</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Liên hệ</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Hợp tác nhân viên
+                giao nhận</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Đăng ký quán</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">ShopeeFood Uni</a>
+            </li>
+
+            <!-- Block Item -->
+            <li class="footer-block__item">
+              <a href="" class="footer-block__item-link">Shopee Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Block Footer -->
+        <div class="footer-block">
+          <!-- Block Title -->
+          <p class="footer-block__title">Ứng dụng ShopeeFood</p>
+
+          <!-- Icon -->
+          <div class="icon">
+            <a href="#">
+              <img src="./img/AppStore-vn.png" class="icon__appstore" alt="" />
+            </a>
+          </div>
+
+          <!-- Icon -->
+          <div class="icon">
+            <a href="#">
+              <img src="./img/PlayStore-vn.png" class="icon__googleplay" alt="" />
+            </a>
+          </div>
+
+          <!-- Icon -->
+          <div class="icon">
+            <a href="#">
+              <img src="./img/Huawei-gallery-vn.png" class="icon__appstore" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Block Footer -->
+        <div class="footer-block">
+          <!-- ShopeeFood Logo -->
+          <div class="footer-block__logo" title="Đặt món trực tuyến giao hàng
+              tận nơi">
+            <a href="#">
+              <img src="./img/Logo-ShopeefoodVN.png" alt="" class="footer-block__logo-img" />
+            </a>
+          </div>
+
+
+          <!-- Description -->
+          <div class="footer-block__copydesc">© 2022 ShopeeFood</div>
+
+          <!-- Media -->
+          <div class="footer-block__media">
+            <!-- Media Icon -->
+            <span class="footer-block__media-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </span>
+            <!-- Media Icon -->
+            <span class="footer-block__media-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </span>
+          </div>
+        </div>
+
+        <!-- Block Footer -->
+        <div class="footer-block">
+          <!-- Block Title -->
+          <p class="footer-block__title footer-block__title--last">Ứng dụng
+            ShopeeFood</p>
+          <div class="footer-block__text">
+            <p>Công Ty Cổ Phần Foody</p>
+            <p>Lầu G, Tòa nhà jabes 1,</p>
+            <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TPHCM</p>
+            <p>Giấy CN ĐKDN số: 0311828036</p>
+            <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 11/6/2012,</p>
+            <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+            <p>Số điện thoại: 1900 2042</p>
+            <p>Email: <a href="#">support@shopeefood.vn</a></p>
+            <a href="#">
+              <img src="./img/gov_seals1.jpg" alt="">
+            </a>
+          </div>
+        </div>
+    </footer>
+  </div>
+
+  <!-- Modals -->
+  <!-- Navbar Search Modal -->
+  <div class="modal-navbarsearch">
+    <!-- Overlay -->
+    <div class="modal-navbarsearch__overlay"></div>
+
+    <!-- Body -->
+    <div class="modal-navbarsearch__body">
+      <!-- Content -->
+      <div class="modal-navbarsearch__inner">
+        <!-- Close Icon -->
+        <span class="modal-navbarsearch__close-icon">
+          <i class="fa-solid fa-xmark"></i>
+        </span>
+
+        <!-- Description -->
+        <p class="modal-navbarsearch__desc">
+          Đặt Đồ ăn, giao hàng từ 20'... có 72092 địa điểm ở TP. HCM từ
+          00:00
+          - 23:59
+        </p>
+
+        <!-- Search Input -->
+        <div class="modal-navbarsearch__form">
+          <input type="text" class="modal-navbarsearch__search-input" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="./js/DomProcess.js"></script>
+  <script src="./js/App.js"></script>
+</body>
+
+</html>

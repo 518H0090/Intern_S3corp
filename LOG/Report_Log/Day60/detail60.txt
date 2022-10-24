@@ -1,0 +1,24 @@
++Huỳnh Trần Trung Hiếu - 14/10/2022
++ Completed Task: 
+  - Finish Fetch Data In Detail Food Layout.
+  - Finish Fetch Data In SearchFood Layout.
+  - Build Basic Pagination For List Food.
+
++ Current Tasks:    
+  - Process Login and Register, Logout.
+          
++ Next Task: Process Authentication with Admin Role For Manage. 
++ Issue: none.
+
+Estimate 14/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 14/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 14/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

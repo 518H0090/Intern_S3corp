@@ -1,0 +1,23 @@
++Huỳnh Trần Trung Hiếu - 20/10/2022
++ Completed Task: 
+  - 
+
++ Current Tasks:    
+  - Improve more detail in all function for user.
+  - Try to find and fix errors in website.
+          
++ Next Task: Research Deploy Website. 
++ Issue: none.
+
+Estimate 20/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 20/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 20/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

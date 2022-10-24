@@ -1,0 +1,106 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;700&display=swap");
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base CSS */
+
+:root {
+  --color-white: #ffffff;
+  --color-orange: #ee4d2d;
+  --color-orange-l: rgba(238, 77, 45, 0.2);
+  --color-black: #000;
+  --color-black-bl: rgba(0, 0, 0, 0.8);
+  --color-black-l: rgba(0, 0, 0, 0.3);
+  --color-blue: #0288d1;
+  --color-blue-l: #51b8ef;
+  --color-green: #239839;
+  --color-red: #cf2127;
+  --color-silver: #f0f0f0;
+  --bg-color: #f2f2f2;
+  --text-black: #464646;
+  --btn-color-default: #e5e4e5;
+  --all-element-behavior: all 0.8s ease-in;
+  --color-botom-modal-search: #6d6f71;
+  --text-color-footer: #252525;
+  --color-violet: #bc36a9;
+}
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.6;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  color: var(--text-black);
+}
+
+body {
+  background: var(--bg-color);
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Re-Use */
+.container {
+  margin: auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.icon .icon-select {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.icon .icon-down {
+  transform: translateY(-50%);
+}
+
+.icon+.icon {
+  margin: 3.5em 0;
+}
+
+.icon .icon__appstore,
+.icon .icon__googleplay,
+.icon .icon__appstore {
+  width: 12.2em;
+  height: 4em;
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  min-width: 2.6em;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid var(--btn-color-default);
+  border-radius: 3px;
+}
+
+.btn-login {
+  padding: 0.8em 1.4em;
+  background-color: #fff;
+  border-color: #ee4d2d;
+  color: #ee4d2d;
+}
+
+.btn-login:hover {
+  opacity: 0.8;
+  filter: brightness(120%);
+}
+
+/* Animation */

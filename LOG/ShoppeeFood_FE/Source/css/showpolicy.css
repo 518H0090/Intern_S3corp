@@ -1,0 +1,47 @@
+/* ============================================================== */
+
+/* Layout */
+.layout {
+  width: 100%;
+  background-color: var(--color-white);
+}
+
+.layout .layout__title {
+  margin-top: 7em;
+  background-color: var(--color-silver-l);
+  height: 8em;
+  display: flex;
+}
+
+.layout .layout__heading {
+  margin: auto;
+}
+
+.layout .policy-container {
+  min-height: 25em;
+}
+
+/* ============================================================== */
+
+/* Policy */
+
+.layout .policy-container__article-title {
+  font-size: 3rem;
+  color: var(--color-red);
+  padding: 0.8em 0;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: var(--color-red);
+}
+
+.layout .policy-container__article-paragraph {
+  padding: 1.4em 0;
+  font-size: 1.2em;
+}
+
+.layout .policy-container__article:last-child {
+  margin-bottom: -1.2em;
+  padding: 1.8em 0;
+}
+
+/* ============================================================== */

@@ -1,0 +1,123 @@
+/* ============================================================== */
+
+/* Layout */
+.layout-container {
+  margin-top: 8em;
+  padding: 3.6em 0;
+}
+
+.layout-container {
+  display: flex;
+}
+
+/* ============================================================== */
+
+/* Layout Form */
+.layout-form {
+  width: 60em;
+  min-height: 26em;
+  margin: auto;
+  background: var(--color-white);
+  border-radius: 1.2em;
+  padding: 0 2em;
+}
+
+.layout-form .layout-form__switch {
+  text-align: end;
+  margin-top: 1.4em;
+  transform: translateY(25%);
+}
+
+.layout-form .layout-form__title {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1.2em 0;
+  font-weight: 500;
+  filter: brightness(120%);
+}
+
+.layout-form .layout-form__options-device {
+  margin-bottom: 1.6em;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.layout-form .layout-form__options-icon {
+  font-size: 1.8rem;
+  color: var(--color-white);
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.layout-form .layout-form__desc {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.4em 0;
+  margin-bottom: 0.4em;
+}
+
+.layout-form .layout-form__input {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.layout-form .layout-form__fied-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.6rem;
+}
+
+.layout-form .layout-form__input-user,
+.layout-form .layout-form__input-pwd {
+  width: 100%;
+  height: 4.2em;
+  padding-left: 40px;
+}
+
+.layout-form .layout-form__useroptions {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+}
+
+.layout-form #savepassword {
+  width: 1.4em;
+  height: 1.4em;
+  transform: translateY(25%);
+  margin-right: 0.6em;
+}
+
+.layout-form label {
+  font-size: 1.4rem;
+}
+
+.layout-form .layout-form__useroptions-forgetpwd {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-blue-l);
+}
+
+.layout-form__useroptions + button[type="submit"] {
+  margin-top: 1.2em;
+}
+
+.layout-form .layout-form__messpolicy {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 2em;
+}
+
+.layout-form .layout-form__messpolicy a {
+  text-decoration: none;
+  color: var(--color-blue-l);
+  font-size: 1.4rem;
+  border-bottom: 2px solid var(--color-blue-l);
+}
+
+/* ============================================================== */

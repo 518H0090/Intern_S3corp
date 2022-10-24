@@ -1,0 +1,23 @@
++Huỳnh Trần Trung Hiếu - 04/10/2022
++ Completed Task: 
+  - Jwt Token, User Login, Register and Logout, Check User Info With Claims.
+
++ Current Tasks:    
+  - Seed data.   
+  - Build CRUD with Repository.
+          
++ Next Task: Continue Build Project. 
++ Issue: none.
+
+Estimate 04/10/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 04/10/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 04/10/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0

@@ -1,0 +1,161 @@
+/* ============================================================== */
+
+/* Layout */
+.layout {
+    width: 100%;
+    background-color: var(--color-white);
+}
+
+.layout .layout__title {
+    margin-top: 7em;
+    background-color: var(--color-silver-l);
+    height: 8em;
+    display: flex;
+}
+
+.layout .layout__heading {
+    margin: auto;
+}
+
+.layout .layout__processbill {
+    margin-top: 7em;
+    background-color: var(--color-silver-l);
+    height: 8em;
+    display: flex;
+}
+
+
+/* ============================================================== */
+.layout .layout__container {
+    height: 60rem;
+    overflow: scroll;
+}
+
+.layout .layout__container::-webkit-scrollbar {
+    display: none;
+}
+
+.layout .layout__shoppinglist {
+    width: 100%;
+}
+
+.layout .layout__shoppingitem {
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+.layout .layout__shoppingitem+.layout__shoppingitem {
+    margin: 2rem 0;
+}
+
+.layout .layout__item-image {
+    flex: 1;
+}
+
+.layout .layout__item-img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.layout .layout__item-content {
+    flex: 2;
+}
+
+.layout .layout-item__title {
+    font-size: 3rem;
+}
+
+.layout .layout-item__description {
+    font-size: 1.8rem;
+}
+
+.layout .layout__item-cost {
+    flex: 1;
+}
+
+.layout .layout__item-cost p {
+    font-size: 2rem;
+    transform: translateY(100%);
+    color: var(--color-blue);
+    font-weight: 700;
+}
+
+.layout .layout__item-options {
+    flex: 1;
+}
+
+.layout .layout-item__btnup,
+.layout .layout-item__btndown {
+    border: 0.1rem solid var(--color-badge);
+    transform: translateY(100%);
+    background: none;
+    margin: 0 0.6rem;
+    min-width: 10rem;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+    color: var(--color-badge);
+    cursor: pointer;
+}
+
+.layout .layout-item__btnup:hover,
+.layout .layout-item__btndown:hover {
+    opacity: 0.8;
+    filter: brightness(120%);
+}
+
+.layout .layout-item__btnup:active,
+.layout .layout-item__btndown:active {
+    opacity: 0.4;
+    filter: brightness(140%);
+}
+
+/* ============================================================ */
+.layout .layout__processbill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout .layout-bill__content {
+    margin-left: 1rem;
+    margin-right: 0.1rem;
+}
+
+.layout .layout-bill_purchase {
+    margin-left: 2rem;
+}
+
+.layout .layout-bill_title {
+    color: var(--color-black);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.layout .layout-bill__totalcost {
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.layout .layout-bill_purchase {
+    text-transform: uppercase;
+    background: none;
+    border: 0.1rem solid var(--color-orange);
+    color: var(--color-orange);
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.layout .layout-bill_purchase:hover {
+    opacity: 0.8;
+    filter: brightness(180%);
+}
+
+.layout .layout-bill_purchase:active {
+    opacity: 0.4;
+    filter: brightness(200%);
+}

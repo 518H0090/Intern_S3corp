@@ -1,0 +1,3 @@
+https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+[JsonConverter(typeof(JsonStringEnumConverter))]

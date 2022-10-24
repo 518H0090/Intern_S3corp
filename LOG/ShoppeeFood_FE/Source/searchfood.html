@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Fresh | Đi chợ Online | Thực phẩm ngon - Giao nhanh TP. HCM |
+        shopeefood.vn
+    </title>
+    <meta name="author" content="Trung Hiếu" />
+    <meta name="keywords" content="HTML,CSS,JS,DotNet,Sql" />
+    <meta name="description" content="Build Simple website" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/shopeefood_favicon.jpg" type="image/x-icon" />
+    <!-- FontAweSome -->
+    <script src="https://kit.fontawesome.com/85dd07e8e0.js" crossorigin="anonymous"></script>
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/searchfood.css">
+</head>
+
+<body>
+    <!-- Full app -->
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <!-- Container -->
+            <div class="container">
+                <!-- Navbar -->
+                <nav class="navbar">
+                    <!-- Logo -->
+                    <div class="navbar-logo">
+                        <a href="#" class="navbar-logo__link">
+                            <img src="./img/shopeefoodvn_logo.png" alt="" class="navbar-logo__image" />
+                        </a>
+                    </div>
+                    <!-- Dropdown  -->
+                    <div class="navbar-dropdown">
+                        <!-- Dropdown Toggle -->
+                        <div class="navbar-dropdown__toggle">
+                            <span class="navbar-dropdown__toggle-name">TP.HCM
+                                <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                        </div>
+                        <!-- Dropdown Menu -->
+                        <div class="navbar-dropdown__menu">
+                            <!-- Dropdown Item -->
+                            <div class="navbar-dropdown__item">
+                                <div class="navbar-dropdown__item-name">TP.HCM</div>
+                                <div class="navbar-dropdown__item-count">86256
+                                    địa điểm</div>
+                            </div>
+
+                            <!-- Dropdown Item -->
+                            <div class="navbar-dropdown__item">
+                                <span class="navbar-dropdown__item-name">Hà
+                                    Nội</span>
+                                <span class="navbar-dropdown__item-count">42231
+                                    địa điểm</span>
+                            </div>
+
+                            <!-- Dropdown Item -->
+                            <div class="navbar-dropdown__item">
+                                <span class="navbar-dropdown__item-name">Đà
+                                    Nẵng</span>
+                                <span class="navbar-dropdown__item-count">11920
+                                    địa điểm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="navbar-navigation">
+                        <!-- Navbar List -->
+                        <ul class="navbar__list">
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item
+                                    navbar__list-item--active">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Đồ ăn</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Thực
+                                    phẩm</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Bia</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Hoa</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Siêu
+                                    thị</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Thuốc</a>
+                            </li>
+
+                            <!-- Navbar item -->
+                            <li class="navbar__list-item">
+                                <!-- Navbar Item Anchor -->
+                                <a href="" class="navbar__item-link">Thú
+                                    cưng</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Search -->
+                    <div class="navbar-search">
+                        <div class="navbar-search__btn">
+                            <i class="fa-solid fa-magnifying-glass
+                                    navbar-search__icon"></i>
+                        </div>
+                    </div>
+
+                    <!-- User Login -->
+                    <div class="navbar-login">
+                        <button type="button" class="btn btn-login">Đăng
+                            nhập</button>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Dropdown Switch Language -->
+            <div class="dropdown-switch">
+                <!-- Dropdown Toggle -->
+                <div class="dropdown-switch__toggle">
+                    <span class="icon">
+                        <img src="./img/vietnameflag_icon.webp" alt="" class="icon-select" />
+                        <i class="fa-solid fa-caret-down icon-down"></i>
+                    </span>
+                </div>
+                <!-- Dropdown Menu -->
+                <div class="dropdown-switch__menu">
+                    <!-- Dropdown Item -->
+                    <div class="dropdown-switch__item">
+                        <span class="dropdown__item-flag">
+                            <span class="icon">
+                                <img src="./img/americanflag_icon.webp" alt="" class="icon-select" />
+                            </span>
+                        </span>
+                        <span class="dropdown__item-flag-name"> Tiếng Anh
+                        </span>
+                    </div>
+
+                    <!-- Dropdown Item -->
+                    <div class="dropdown-switch__item">
+                        <span class="dropdown__item-flag">
+                            <span class="icon">
+                                <img src="./img/vietnameflag_icon.webp" alt="" class="icon-select" />
+                            </span>
+                        </span>
+                        <span class="dropdown__item-flag-name"> Tiếng Việt</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Layout -->
+        <main class="layout">
+            <!-- Container -->
+            <div class="container">
+                <!-- View Food Detail Filter -->
+                <section class="layout-searchfilter">
+                    <!-- Search Fildter Navbar -->
+                    <nav class="searchfilter__navbar">
+
+                        <!-- Navbar List -->
+                        <ul class="searchfilter__list">
+
+                            <!-- Navbar Item -->
+                            <li class="searchfilter__item">
+                                <!-- Toggle -->
+                                <div class="searchfilter__toggle">
+                                    <p class="searchfilter__item-content">Khu
+                                        Vực</p>
+                                    <i class="fa-solid fa-chevron-down
+                                            searchfilter__content-icon"></i>
+                                    <!-- Box List Filter -->
+                                    <div class="searchfilter__boxlist">
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem2" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem2" class="searchfilter__item-label">Quận
+                                                2</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem3" id="filteritem3" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem3" class="searchfilter__item-label">Quận
+                                                3</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritemtemp" id="filteritemtemp" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritemtemp" class="searchfilter__item-label">Temp</label>
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Navbar Item -->
+                            <li class="searchfilter__item">
+                                <!-- Toggle -->
+                                <div class="searchfilter__toggle">
+                                    <p class="searchfilter__item-content">phân
+                                        loại</p>
+                                    <i class="fa-solid fa-chevron-down
+                                            searchfilter__content-icon"></i>
+                                    <!-- Box List Filter -->
+                                    <div class="searchfilter__boxlist">
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+                                        <!-- Box Filter Item  -->
+                                        <span class="searchfilter__boxlist-item">
+                                            <input name="filteritem" id="filteritem" type="checkbox"
+                                                class="searchfilter__item-checkbox">
+                                            <label for="filteritem" class="searchfilter__item-label">Quận
+                                                1</label>
+                                        </span>
+
+
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- Navbar List -->
+                        <ul class="searchfilter__list">
+                            <!-- Navbar Item -->
+                            <li class="searchfilter__item">
+                                <!-- Amount Of Result -->
+                                <span class="searchfilter__item-amount">200
+                                    Kết quả</span>
+                            </li>
+
+                            <!-- Navbar Item -->
+                            <li class="searchfilter__item">
+                                <!-- Dropdown Filter -->
+                                <div class="searchfilter__dropdown">
+                                    <select class="searchfilter__item-dropcontent">
+                                        <option value="" selected>Đúng
+                                            nhất</option>
+
+                                        <option value="" >Gần tôi</option>
+                                        <option value="" >Đánh giá</option>
+                                        <option value="" >Bán chạy</option>
+                                        <option value="" >Giao nhanh</option>
+                                    </select>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- UnderLine Between Nav And List -->
+                    <hr class="searchfilter__underline">
+
+                    <!-- Tag List Filter -->
+                    <div class="searchfilter__taglist">
+                        <div class="searchfilter__tag">
+                            <p class="searchfilter__paragraph">Khu vực : 0</p>
+
+                        </div>
+
+                        <div class="searchfilter__tag">
+                            <p class="searchfilter__paragraph">Phân loại : 0</p>
+
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- View Food Detail Menu -->
+                <section class="layout-searchmenu">
+                    <!-- Menu List -->
+                    <div class="searchmenu__list">
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+                        <!-- Menu Item -->
+                        <div class="searchmenu__item">
+                            <a href="./detailfood.html" class="searchmenu__item-link">
+                                <!-- Item Image -->
+                                <div class="searchitem__image">
+                                    <img src="./img/image-c52eead2-220906151747.jpg" alt="" class="searchitem__img">
+                                </div>
+
+                                <!-- Item Content -->
+                                <div class="searchitem__content">
+                                    <i class="fa-solid fa-worm
+                                            searchitem__content-icon"></i>
+
+                                    <h3 class="searchitem__content-title">
+                                        Passio Coffee - 331 Nguy...
+                                    </h3>
+
+                                    <p class="searchitem__content-subtitle">
+                                        331 Nguyễn Trọng Tuyến, P.10, Ph...
+                                    </p>
+                                </div>
+
+                                <!-- Item  Promotion-->
+                                <div class="searchitem__promotion">
+                                    <i class="fa-solid fa-tag
+                                            searchitem__promotion-icon"></i>
+
+                                    <p class="searchitem__promotion-content">JCB
+                                        giảm 35K</p>
+                                </div>
+
+                                <!-- Open Status -->
+                                <div class="opentime-status">
+                                    <i class="fa-solid fa-circle
+                                            opentime-status-icon"></i>
+                                </div>
+
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Menu Pagination -->
+                    <div class="searchmenu__pagination">
+                        <!-- Pagination List -->
+                        <ul class="searchpagination__list">
+                            <!-- Item -->
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link
+                                        searchpagination__item-link--left">
+                                    <i class="fa-solid fa-arrow-left-long"></i>
+                                </a>
+                            </li>
+                            <li class="searchpagination__item searchpagination__item--select">
+                                <a href="#" class="searchpagination__item-link">1</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">2</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">3</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">4</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">5</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">6</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">7</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link">8</a>
+                            </li>
+
+                            <li class="searchpagination__item">
+                                <a href="#" class="searchpagination__item-link
+                                        searchpagination__item-link--right">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- View Food Article -->
+                <section class="layout-searcharticle">
+
+                    <h2 class="searcharticle__title">ShopeeFood - Ứng dụng
+                        giao nước uống đặt trà sữa online nhiều deal giảm
+                        giá</h2>
+
+                    <p class="searcharticle__desc">Không còn gì tuyệt bằng
+                        việc tự thưởng cho bản thân tận hưởng hương vị ngon
+                        lành: trà sữa, sinh tố hay cafe… để nạp lại năng
+                        lượng sau khi kết thúc một ngày làm việc vất vả. Sự
+                        cạnh tranh ở các thương hiệu từ Starbucks, Phúc
+                        Long, Highland… đến các cửa hàng trà sữa vỉa hè, vì
+                        muốn giữ được nhóm khách yêu thích khám phá của
+                        mình, đã mang đến cho thực khách nhiều đa dạng lựa
+                        chọn.</p>
+
+                    <h2 class="searcharticle__title">Thích order trà sữa?
+                        Đặt ShopeeFood giao ngay
+                    </h2>
+                    <p class="searcharticle__desc">Tuy nhiên, đôi khi vì
+                        lịch trình làm việc bận rộn, người dùng đã quen với
+                        việc sử dụng các ứng dụng giao đặt nước online để
+                        tiết kiệm thời gian mà vẫn khám phá được một món
+                        ngon lành thông qua. Trong đó, ứng dụng ShopeeFood
+                        ngoài việc có các bộ lọc khác nhau còn đi kèm nhiều
+                        ưu đãi.</p>
+
+                    <h2 class="searcharticle__title">Ưu đãi liên kết với
+                        nhiều cửa hàng - phân loại đa dạng:</h2>
+                    <p class="searcharticle__desc">
+                        ShopeeFood ngoài danh sách lớn về các nhà hàng quán
+                        ăn, người dùng chỉ cần chọn lựa sàng lọc để đặt
+                        online nước uống theo đúng nhu cầu của mình.
+
+                    <ul class="searcharticle__list">
+                        <li class="searcharticle__item">Theo khu vực:
+                            chọn ngay vào khu vực mình muốn tìm kiếm,
+                            mua trà sữa online dễ dàng hơn, ship rẻ hơn
+                        </li>
+                        <li class="searcharticle__item">Giảm nhiều nhất:
+                            đặt trà sữa miễn phí, đặt nước với giá ưu
+                            đãi nhiều nhất, phù hợp cho người dùng muốn
+                            tiết kiệm chi phí (ví dụ: khi đặt trà sữa
+                            online số lượng lớn đãi bạn bè…)</li>
+                        <li class="searcharticle__item">Mới nhất: những
+                            deal giảm giá mới nhất, được cập nhật cho
+                            bạn nhân cơ hội này có thể khám phá</li>
+                        <li class="searcharticle__item">Sắp hết hạn:
+                            những ưu đãi trà sữa, nước uống... gần hết
+                            hạn khuyến mãi trên ShopeeFood. Nhớ tranh
+                            thủ!</li>
+                        <li class="searcharticle__item">Không phí dịch
+                            vụ: những cửa hàng, quán nước ưu đãi là đối
+                            tác của ShopeeFood, chỉ tốn phí ship</li>
+                        <li class="searcharticle__item">Ưu đãi gần tôi:
+                            định vị ưu đãi theo khu vực, theo vị trí của
+                            người dùng để tìm kiếm các deal tốt nhất có
+                            thể!</li>
+                    </ul>
+                    </p>
+
+                    <h2 class="searcharticle__title">Tham khảo bộ sưu tập
+                        được sàng lọc sẵn</h2>
+                    <p class="searcharticle__desc">
+                        Với người dùng thì sự đa dạng về thị trường
+                        <strong>đặt trà sữa </strong>
+                        uống online nhộn nhịp đôi khi cũng gây khó khăn
+                        trong việc đưa ra sự lựa chọn. ShopeeFood ngoài việc
+                        giao, mua trà sữa online mà còn có các bộ sưu tập
+                        gợi ý sẵn theo chủ đề/ xu hướng mới đa dạng: từ
+                        <a href="#">sữa tươi trân châu đường đen</a> ,
+                        <a href="#">trà sữa thạch phô mai</a>,
+                        <a href="#">milo dầm</a>,
+                        <a href="#">trà chanh Hồng Kông</a>,
+                        <a href="#">trà trái cây</a>
+                        đến chè, thạch rau câu ngon… từ vỉa hè tới các hàng
+                        quán lớn.
+                    </p>
+
+                    <h2 class="searcharticle__title">Đặt nước dựa trên đánh
+                        giá của người dùng và gợi ý của ShopeeFood</h2>
+                    <p class="searcharticle__desc">
+                        Việc mua đồ uống online, đặt trà sữa miễn phí nay dễ
+                        dàng hơn rất nhiều với việc tham khảo đánh giá từ
+                        người dùng từ trước; hoặc bộ lọc gợi ý sau khi người
+                        dùng gõ tìm kiếm.
+
+                    <ul class="searcharticle__list">
+                        <li class="searcharticle__item">Đúng nhất: ứng
+                            với keyword người dùng tìm kiếm trên ứng
+                            dụng, ShopeeFood sẽ gởi kết quả đúng nhất,
+                            bảo đảm việc thao tác đặt nước online nhanh
+                            chóng</li>
+                        <li class="searcharticle__item">Gần tôi: nhập
+                            ngay địa điểm, người dùng nhận ngay về kết
+                            quả có bán món nước mà mọi người tìm kiếm
+                            gần khu vực đó nhất.</li>
+                        <li class="searcharticle__item">Đặt nhiều: tham
+                            khảo xem người dùng gần đây đặt hàng cửa
+                            hàng nào nhiều nhất</li>
+                        <li class="searcharticle__item">Đánh giá: dễ
+                            dàng tìm ra cửa hàng nào đang được nhiều
+                            người order trà sữa, sinh tố hay các món
+                            nước háp dãn khác nhiều nhất trong thời gian
+                            qua.</li>
+                    </ul>
+                    </p>
+
+                    <h2 class="searcharticle__title">Tips để đặt trà sữa
+                        online miễn phí tại ShopeeFood</h2>
+                    <p class="searcharticle__desc">Để có thể tận hưởng việc
+                        đặt đồ ăn, cơ hội đặt đồ uống miễn phí với voucher
+                        độc quyền thì bạn đừng quên tải
+                        <strong>ứng dụng ShopeeFood </strong>
+                        về điện thoại của mình. ShopeeFood luôn cập nhật
+                        nhanh chóng các chương trình khuyến mãi ở khu vực
+                        Trang Chủ cũng như được tích hợp trong các bộ sưu
+                        tập riêng biệt. Nhớ nhập các mã khuyến mãi đi kèm
+                        theo các voucher FREESHIP để đặt trà sữa, đặt nước
+                        uống miễn phí vận chuyển cho các đơn hàng nha
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <!-- Hr -->
+        <hr />
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Container -->
+            <div class="container footer-container">
+                <!-- Block Footer -->
+                <div class="footer-block">
+                    <!-- Block Title -->
+                    <p class="footer-block__title">Công ty</p>
+                    <!-- Block List -->
+                    <ul class="footer-block__list">
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Giới
+                                Thiệu</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Trung
+                                tâm Trợ giúp</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Quy
+                                chế</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Điều
+                                khoản sử dụng</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Bảo
+                                mật thông tin</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Giải
+                                quyết khiếu nại</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Liên
+                                hệ</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Hợp
+                                tác nhân viên giao nhận</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Đăng
+                                ký quán</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">ShopeeFood
+                                Uni</a>
+                        </li>
+
+                        <!-- Block Item -->
+                        <li class="footer-block__item">
+                            <a href="" class="footer-block__item-link">Shopee
+                                Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Block Footer -->
+                <div class="footer-block">
+                    <!-- Block Title -->
+                    <p class="footer-block__title">Ứng dụng ShopeeFood</p>
+                    <!-- Icon -->
+                    <div class="icon">
+                        <a href="#">
+                            <img src="./img/AppStore-vn.png" class="icon__appstore" alt="" />
+                        </a>
+                    </div>
+
+                    <!-- Icon -->
+                    <div class="icon">
+                        <a href="#">
+                            <img src="./img/PlayStore-vn.png" class="icon__googleplay" alt="" />
+                        </a>
+                    </div>
+
+                    <!-- Icon -->
+                    <div class="icon">
+                        <a href="#">
+                            <img src="./img/Huawei-gallery-vn.png" class="icon__appstore" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Block Footer -->
+                <div class="footer-block">
+                    <!-- ShopeeFood Logo -->
+                    <div class="footer-block__logo" title="Đặt món trực
+                            tuyến giao hàng tận nơi">
+                        <a href="#">
+                            <img src="./img/Logo-ShopeefoodVN.png" alt="" class="footer-block__logo-img" />
+                        </a>
+                    </div>
+
+
+                    <!-- Description -->
+                    <div class="footer-block__copydesc">© 2022 ShopeeFood</div>
+                    <!-- Media -->
+                    <div class="footer-block__media">
+                        <!-- Media Icon -->
+                        <span class="footer-block__media-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <!-- Media Icon -->
+                        <span class="footer-block__media-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Block Footer -->
+                <div class="footer-block">
+                    <!-- Block Title -->
+                    <p class="footer-block__title
+                            footer-block__title--last">Ứng dụng ShopeeFood</p>
+                    <div class="footer-block__text">
+                        <p>Công Ty Cổ Phần Foody</p>
+                        <p>Lầu G, Tòa nhà jabes 1,</p>
+                        <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão,
+                            Quận 1, TPHCM</p>
+                        <p>Giấy CN ĐKDN số: 0311828036</p>
+                        <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày
+                            11/6/2012,</p>
+                        <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+                        <p>Số điện thoại: 1900 2042</p>
+                        <p>Email: <a href="#">support@shopeefood.vn</a></p>
+                        <a href="#">
+                            <img src="./img/gov_seals1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+    <!-- Modals -->
+    <!-- Navbar Search Modal -->
+    <div class="modal-navbarsearch">
+        <!-- Overlay -->
+        <div class="modal-navbarsearch__overlay"></div>
+
+        <!-- Body -->
+        <div class="modal-navbarsearch__body">
+            <!-- Content -->
+            <div class="modal-navbarsearch__inner">
+                <!-- Close Icon -->
+                <span class="modal-navbarsearch__close-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+
+                <!-- Description -->
+                <p class="modal-navbarsearch__desc">
+                    Đặt Đồ ăn, giao hàng từ 20'... có 72092 địa điểm ở
+                    TP. HCM từ 00:00
+                    - 23:59
+                </p>
+
+                <!-- Search Input -->
+                <div class="modal-navbarsearch__form">
+                    <input type="text" class="modal-navbarsearch__search-input" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="./js/DomProcess.js"></script>
+    <script src="./js/DropDownFilter.js"></script>
+    <script src="./js/App.js"></script>
+</body>
+
+</html>

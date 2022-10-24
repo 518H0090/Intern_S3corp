@@ -1,0 +1,23 @@
++Huỳnh Trần Trung Hiếu - 30/09/2022
++ Completed Task: 
+  - Add ScrollTo Event When Refresh For Banner Menu ScrollBar.
+  - Temporarily Finish Build UI.
+
++ Current Tasks:  
+  - Research Database and Seed data.
+          
++ Next Task: Continue Build Project. 
++ Issue: none.
+
+Estimate 30/09/2022
+- https://docs.google.com/spreadsheets/d/1SHZb_m95PsywkJGtWuHCOZo0GvyPMaLQtvDmqM1CTVQ/edit#gid=0
+
+Demo 30/09/2022
+- https://github.com/518H0090/InternShip_FinalProject.
+
+References 30/09/2022
+- None
+
+Example Todo List
+
+https://docs.google.com/spreadsheets/d/1sS4hg11POA2OLxJc37ESK4v2ZzxGIuiwnon0KHxgNDw/edit#gid=0
